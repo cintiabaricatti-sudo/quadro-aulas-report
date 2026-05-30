@@ -12,9 +12,11 @@
 const pptxgen  = require("pptxgenjs");
 const fetch    = (...a) => import("node-fetch").then(({default:f}) => f(...a));
 const path     = require("path");
+const fs       = require("fs");
+const { createCanvas } = require("canvas");
 
 // ── CONFIGURAÇÃO ──────────────────────────────────────────────────────
-const PAT         = "SEU_PAT_AQUI";          // Personal Access Token do ADO
+const PAT         = process.env.ADO_PAT || "";
 const ORG         = "alm-animaeducacao";
 const PROJECT     = "TMD Financas Docente e Planejamento Academico";
 const QUERY_ID    = "3e461cff-34fa-4988-a28e-da5146c3afaa";
@@ -30,6 +32,7 @@ const CAMADAS_CANCELADAS = ["COMPLEMENTARES"]; // vazio = nenhuma cancelada
 
 // Output
 const OUTPUT_PPTX = "./Quadro_Aulas_Report_Auto.pptx";
+const OUTPUT_JPG  = "C:/Users/cintia/OneDrive - Laureate Education - LATAMBR/Reports_Quadro_Aulas/Quadro_Aulas_Report_Auto.jpg";
 
 // ── CONSTANTES ────────────────────────────────────────────────────────
 const SUB_TYPES   = ["Sub Imp","Sub Test","Sub Requirement","Sub Value Activation","Sub Bug"];
@@ -663,6 +666,312 @@ async function gerarPPTX(M) {
   console.log(`\n✅ PPTX gerado: ${OUTPUT_PPTX}`);
 }
 
+// ── GERAR JPG ──────────────────────────────────────────────────────────
+// ── GERAR JPG (espelho exato do PPTX, fator 144px/polegada) ────────────
+async function gerarJPG(M) {
+  const S = 144; // scale: 1 polegada = 144px
+  const W = Math.round(13.3*S), H = Math.round(7.5*S);
+  const canvas = createCanvas(W, H);
+  const ctx = canvas.getContext("2d");
+
+  // Preparar D idêntico ao gerarPPTX
+  const e1Cams    = M.camadas.filter(c => c.nome !== "OBSERVABILIDADE");
+  const e1SubsFin = e1Cams.reduce((s,c) => s + Math.round(c.pct/100 * c.itens), 0);
+  const e1SubsTot = e1Cams.reduce((s,c) => s + c.itens, 0);
+  const e1Pct     = e1SubsTot > 0 ? Math.round(e1SubsFin / e1SubsTot * 100) : 0;
+  const e2Cam     = M.camadas.find(c => c.nome === "OBSERVABILIDADE");
+  const e2Pct     = e2Cam ? e2Cam.pct : 0;
+  const pEstourados = M.totEf > 0 ? (M.estourados/M.totEf*100).toFixed(1) : "0.0";
+  const pDentro     = M.totEf > 0 ? (M.dentro/M.totEf*100).toFixed(1) : "0.0";
+  const pRetrab     = M.totEf > 0 ? (M.subBugsAll/M.totEf*100).toFixed(1) : "0.0";
+
+  const totalEstouros = M.camadas.reduce((s,c) => s + c.estouros_ativos.length, 0);
+  const riscos = [];
+  if (totalEstouros > 0) {
+    const linhas = M.camadas.flatMap(c => c.estouros_ativos.map(e => `#${e.id} +${e.dH}h(+${e.dP}%) [${e.dev}]`));
+    riscos.push({ cor:"DC2626", bordaCor:"DC2626", bgCor:"FFF1F2", tag:"RISCO ATIVO",
+      badge:`${totalEstouros}\nestouros`, badgeCor:"DC2626", linha1:linhas[0]||"", linha2:linhas[1]||"" });
+  } else if (M.semSub.length > 0) {
+    riscos.push({ cor:"6B3FA0", bordaCor:"6B3FA0", bgCor:"F5F3FF", tag:"REFINAMENTO PENDENTE",
+      badge:`${M.semSub.length}\n${M.semSub.length===1?"story":"stories"}`, badgeCor:"6B3FA0",
+      linha1:`${M.semSub.length} ${M.semSub.length===1?"story":"stories"} sem subtarefas`, linha2:M.semSubCamadas });
+  } else {
+    riscos.push({ cor:"1D9E75", bordaCor:"1D9E75", bgCor:"F0FDF4", tag:"SEM RISCO",
+      badge:"0\nriscos", badgeCor:"1D9E75", linha1:"Nenhum estouro ou refinamento pendente", linha2:"" });
+  }
+  riscos.push({ cor:"6B3FA0", bordaCor:"6B3FA0", bgCor:"F5F3FF", tag:"ATENCAO · Janela de Entrega",
+    badge:"~25 dias\nuteis", badgeCor:"6B3FA0",
+    linha1:`Observabilidade: Projetado ${M.dataProjObs} · Base ${DATA_BASE_OBS}`, linha2:"" });
+  riscos.push({ cor:"DC2626", bordaCor:"DC2626", bgCor:"FFF1F2", tag:"BUG / SUSTENTACAO",
+    badge:`${M.horasR3}h\nrealizadas`, badgeCor:"DC2626",
+    linha1:`${M.bugs} Bugs · ${M.srs} SRs no periodo`, linha2:`Horas nao planejadas: ${M.horasR3}h` });
+  riscos.push({ cor:"D97706", bordaCor:"D97706", bgCor:"FFFBEB", tag:"EXPANSAO DE ESCOPO",
+    badge:`${M.novosTotal}\nitens`, badgeCor:"D97706",
+    linha1:`${M.novosTotal} itens criados pos 01/05`, linha2:M.novosTxt });
+
+  const now = new Date(new Date().toLocaleString("en-US", {timeZone:"America/Sao_Paulo"}));
+  const meses = ["Janeiro","Fevereiro","Marco","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro"];
+  const dataStr = `${now.getDate()} de ${meses[now.getMonth()]} de ${now.getFullYear()} as ${String(now.getHours()).padStart(2,"0")}:${String(now.getMinutes()).padStart(2,"0")}`;
+
+  M.camadas.forEach(cam => {
+    const p = parseFloat(cam.deltaP);
+    cam.projCor = p <= 10 ? "1D9E75" : p <= 25 ? "D97706" : "DC2626";
+  });
+
+  const D = {
+    data: dataStr, total:M.total, conc:M.conc, prog:M.prog, afbl:M.afbl, pct:M.pct, vel:"18h/dia",
+    camadas:M.camadas, planejado:M.plan, jaGasto:+M.real.toFixed(1), falta:M.falta,
+    aumentoH:`${M.deltaH>=0?"+":""}${M.deltaH}h`, aumentoP:`${M.deltaP>=0?"+":""}${M.deltaP}%`,
+    proj_total:+M.proj.toFixed(1), data_proj:M.dataProjObs, data_proj_camadas:M.dataProjE1,
+    data_base:DATA_BASE_E1, data_pess:DATA_PESS_E1, data_base_obs:DATA_BASE_OBS, data_pess_obs:DATA_PESS_OBS,
+    ef_estourados:`${pEstourados}%`, ef_retrabalho_pct:`${pRetrab}%`,
+    ef_retrabalho_bugs:M.subBugsAll, ef_retrabalho_h:`${M.horasSubBugs}h`, ef_dentro:`${pDentro}%`,
+    riscos, devs:M.devs, qa:M.qa, _e1Pct:e1Pct, _e2Pct:e2Pct,
+  };
+
+  // Helpers canvas
+  const p = v => Math.round(v * S); // polegadas → pixels
+  const hex = c => c.startsWith("#") ? c : "#"+c;
+
+  function fillRect(x,y,w,h,color) {
+    ctx.fillStyle = hex(color); ctx.fillRect(p(x),p(y),p(w),p(h));
+  }
+  function strokeRect(x,y,w,h,color,lw=1) {
+    ctx.strokeStyle = hex(color); ctx.lineWidth = lw; ctx.strokeRect(p(x)+0.5,p(y)+0.5,p(w)-1,p(h)-1);
+  }
+  function fillAndStroke(x,y,w,h,fill,stroke,lw=1) {
+    fillRect(x,y,w,h,fill); if(stroke) strokeRect(x,y,w,h,stroke,lw);
+  }
+  function addText(text, x, y, w, h, opts={}) {
+    const {fontSize=7, color="222222", bold=false, align="left", valign="top", italic=false} = opts;
+    const px_size = Math.round(fontSize * S / 72 * 1.5);
+    ctx.font = `${italic?"italic ":""}${bold?"bold ":""}${px_size}px Arial`;
+    ctx.fillStyle = hex(color);
+    ctx.textAlign = align === "center" ? "center" : align === "right" ? "right" : "left";
+    const textX = align === "center" ? p(x)+p(w)/2 : align === "right" ? p(x)+p(w) : p(x);
+    const lineH = px_size * 1.25;
+    const str = String(text);
+    // wrap text
+    const words = str.split(" ");
+    const maxW = p(w);
+    let lines = [], line = "";
+    for (const word of words) {
+      const test = line ? line+" "+word : word;
+      if (ctx.measureText(test).width > maxW && line) { lines.push(line); line = word; }
+      else line = test;
+    }
+    lines.push(line);
+    const totalH = lines.length * lineH;
+    let startY = p(y);
+    if (valign === "middle") startY = p(y) + (p(h) - totalH) / 2 + px_size;
+    else startY = p(y) + px_size;
+    lines.forEach((l, i) => {
+      if (p(y) + p(h) > startY + i*lineH - px_size)
+        ctx.fillText(l, textX, startY + i*lineH);
+    });
+    ctx.textAlign = "left";
+  }
+  function addBar(x,y,w,h,bgColor,fillColor,pct) {
+    fillRect(x,y,w,h,bgColor);
+    if (pct > 0) fillRect(x,y,w*(Math.min(pct,100)/100),h,fillColor);
+  }
+
+  // Fundo
+  fillRect(0,0,13.3,7.5,"F8FAFC");
+
+  const SBW=2.55, MX=SBW+0.12, MW=13.3-MX-0.08;
+
+  // ── SIDEBAR ──
+  fillRect(0,0,SBW,7.5,"1C2B4A");
+  addText("STATUS REPORT",       0.15,0.18,SBW-0.20,0.18, {fontSize:6.5,color:"8FA3C0",bold:true});
+  addText("Quadro de Aulas",     0.15,0.36,SBW-0.20,0.34, {fontSize:13.5,color:"FFFFFF",bold:true});
+  addText("Resiliencia Sistemica",0.15,0.70,SBW-0.20,0.18,{fontSize:8,color:"8FA3C0",italic:true});
+  addText(D.data,                 0.15,0.90,SBW-0.20,0.16, {fontSize:7,color:"8FA3C0"});
+  fillRect(0.15,1.10,SBW-0.30,0.015,"2D4A73");
+
+  const sbKpis=[{label:"TOTAL DE ITENS",val:String(D.total),vc:"FFFFFF"},{label:"CONCLUIDOS",val:String(D.conc),vc:"4ADE80"},{label:"EM PROGRESSO",val:String(D.prog),vc:"FCD34D"},{label:"A FAZER / BACKLOG",val:String(D.afbl),vc:"F87171"}];
+  let sy=1.18;
+  sbKpis.forEach(k=>{
+    addText(k.label, 0.15,sy,SBW-0.20,0.16, {fontSize:6.5,color:"8FA3C0",bold:true});
+    addText(k.val,   0.15,sy+0.16,SBW-0.20,0.38, {fontSize:24,color:k.vc,bold:true});
+    sy+=0.62;
+  });
+
+  const pbY=sy+0.04, barW=SBW-0.30;
+  addText("PROGRESSO GERAL", 0.15,pbY,SBW-0.20,0.15, {fontSize:6.5,color:"8FA3C0",bold:true});
+  const barY=pbY+0.17;
+  addBar(0.15,barY,barW,0.10,"1E3A5F","4ADE80",D.pct);
+  addText(`${D.pct}% concluido  .  ${D.conc} de ${D.total} itens`, 0.15,barY+0.12,SBW-0.20,0.16, {fontSize:7,color:"8FA3C0"});
+  addText("Cancelados excluidos do escopo", 0.15,barY+0.28,SBW-0.20,0.14, {fontSize:6.5,color:"8FA3C0"});
+  addText("VELOCIDADE RECENTE", 0.15,barY+0.48,SBW-0.20,0.15, {fontSize:6.5,color:"8FA3C0",bold:true});
+  addText(D.vel, 0.15,barY+0.63,SBW-0.20,0.34, {fontSize:22,color:"FCD34D",bold:true});
+  addText("velocidade fixada pelo time", 0.15,barY+0.97,SBW-0.20,0.14, {fontSize:6.5,color:"8FA3C0"});
+  addText("Squad Lecionar",  0.15,7.10,SBW-0.20,0.16, {fontSize:7,color:"8FA3C0"});
+  addText("Cintia Baricatti",0.15,7.27,SBW-0.20,0.16, {fontSize:7,color:"8FA3C0"});
+
+  // ── SEÇÃO 1 — CAMADAS ──
+  const S1Y=0.08, S1H=2.20, CW=(MW-0.09*3)/4;
+  D.camadas.forEach((cam,ci) => {
+    const cx = MX+ci*(CW+0.09);
+    const isCanceled = cam.cancelado===true;
+    const isComplete = !isCanceled && cam.pct===100 && cam.pais_pct===100;
+    const bordaCor = isComplete?"1D9E75": isCanceled?"DC2626":"DDDDDD";
+
+    if (isCanceled) {
+      fillRect(cx,S1Y,CW,0.28,cam.cor);
+      addText(cam.nome,    cx,S1Y,CW*0.62,0.28, {fontSize:8.5,color:"FFFFFF",bold:true,align:"center",valign:"middle"});
+      addText("·",         cx+CW*0.59,S1Y,CW*0.08,0.28, {fontSize:9,color:"FFAAAA",align:"center",valign:"middle"});
+      addText("CANCELADO", cx+CW*0.63,S1Y,CW*0.37,0.28, {fontSize:8,color:"FFD5D5",bold:true,align:"center",valign:"middle"});
+    } else if (isComplete) {
+      const darkCor = cam.cor==="1D9E75"?"085041":cam.cor==="534AB7"?"26215C":cam.cor==="D97706"?"633806":"042C53";
+      fillRect(cx,S1Y,CW,0.28,darkCor);
+      addText(cam.nome,     cx,S1Y,CW*0.55,0.28, {fontSize:8.5,color:"FFFFFF",bold:true,align:"center",valign:"middle"});
+      addText("·",          cx+CW*0.52,S1Y,CW*0.08,0.28, {fontSize:9,color:"9FE1CB",align:"center",valign:"middle"});
+      addText("v ENTREGUE", cx+CW*0.56,S1Y,CW*0.44,0.28, {fontSize:8,color:"9FE1CB",bold:true,align:"center",valign:"middle"});
+    } else {
+      fillRect(cx,S1Y,CW,0.28,cam.cor);
+      addText(cam.nome, cx,S1Y,CW,0.28, {fontSize:8.5,color:"FFFFFF",bold:true,align:"center",valign:"middle"});
+    }
+
+    const bodyY=S1Y+0.28, bodyH=S1H-0.28;
+    fillAndStroke(cx,bodyY,CW,bodyH,"FFFFFF",bordaCor, isComplete?1.5:1);
+
+    const storiesNFT=[cam.stories>0?`${cam.stories} ${cam.stories===1?"Story":"Stories"}`:null,cam.nft>0?`${cam.nft} NFT`:null].filter(Boolean).join(" · ");
+    const l1 = storiesNFT ? `${storiesNFT} · ${cam.itens} itens` : `${cam.itens} itens`;
+    addText(l1, cx+0.08,bodyY+0.08,CW-0.16,0.18, {fontSize:7.5,color:"222222"});
+    addText(`A Fazer: ${cam.af} . Em progresso: ${cam.prog} . Finalizados: ${cam.conc}`, cx+0.08,bodyY+0.26,CW-0.16,0.16, {fontSize:7.5,color:"222222"});
+    addText(`Est: ${cam.est}h . Real: ${cam.real}h . Rem: ${cam.rem}h`, cx+0.08,bodyY+0.42,CW-0.16,0.16, {fontSize:7.5,color:"222222"});
+
+    const bY=bodyY+0.58, bW=CW-0.16;
+    addBar(cx+0.08,bY,bW,0.055,"E8EDF2",cam.cor,cam.pais_pct);
+    addText(`Stories/NFTs: ${cam.pais_pct}% · ${cam.pais_conc} de ${cam.pais_total}`, cx+0.08,bY+0.06,CW-0.16,0.12, {fontSize:6.5,color:"888888"});
+
+    const bY2=bY+0.19;
+    addBar(cx+0.08,bY2,bW,0.055,"E8EDF2",cam.cor,cam.pct);
+    addText(`Subs: ${cam.pct}% · ${cam.conc} de ${cam.itens}`, cx+0.08,bY2+0.06,CW-0.16,0.12, {fontSize:6.5,color:"888888"});
+    addText(`Projetado: ${cam.proj}h (${cam.deltaH} / ${cam.deltaP})`, cx+0.08,bY2+0.22,CW-0.16,0.18, {fontSize:8,color:cam.projCor,bold:true});
+
+    const eY=bY2+0.42;
+    if (cam.estouros_ativos.length > 0) {
+      addText(`${cam.estouros_ativos.length} ativo(s) com horas estouradas`, cx+0.08,eY,CW-0.16,0.16, {fontSize:7.5,color:cam.cor,bold:true});
+      const ecY=eY+0.18, ecH=bodyH-(ecY-bodyY)-0.06;
+      fillAndStroke(cx+0.08,ecY,CW-0.16,ecH,"FFF8F8","FCA5A5");
+      cam.estouros_ativos.slice(0,1).forEach(ov => {
+        addText(ov.titulo?.substring(0,40)||"", cx+0.10,ecY+0.02,CW-0.20,0.14, {fontSize:6.5,color:"222222"});
+        addText(`+${ov.dH}h (+${ov.dP}%)`, cx+0.10,ecY+0.16,CW-0.20,0.14, {fontSize:7,color:"DC2626",bold:true});
+      });
+    }
+  });
+
+  // ── SEÇÃO 2 — HORAS ──
+  const S2Y=S1Y+S1H+0.04, S2H=0.94;
+  fillAndStroke(MX,S2Y,MW,S2H,"FFFFFF","DDDDDD");
+  addText("HORAS - ESTIMADO vs. PROJETADO", MX+0.10,S2Y+0.06,MW-0.20,0.16, {fontSize:7,color:"888888"});
+  const hCols=[{label:"PLANEJADO",val:`${D.planejado}h`,sub:"original estimate",cor:"222222"},{label:"JA GASTO",val:`${D.jaGasto}h`,sub:"completed work",cor:"D97706"},{label:"FALTA",val:`${D.falta}h`,sub:"remaining (devs)",cor:"F87171"},{label:"AUMENTO DE ESFORCO",val:D.aumentoH,sub:`projetado: ${D.proj_total}h (${D.aumentoP})`,cor:"D97706"}];
+  const hW=MW/4;
+  hCols.forEach((h,hi) => {
+    const hx=MX+hi*hW;
+    if (hi>0) fillRect(hx,S2Y+0.22,0.01,S2H-0.28,"E8EDF2");
+    addText(h.label, hx+0.10,S2Y+0.22,hW-0.20,0.16, {fontSize:7,color:"888888",bold:true});
+    addText(h.val,   hx+0.10,S2Y+0.36,hW-0.20,0.34, {fontSize:24,color:h.cor,bold:true});
+    addText(h.sub,   hx+0.10,S2Y+0.72,hW-0.20,0.14, {fontSize:7,color:"888888"});
+  });
+  const pbGastoW=MW*(D.jaGasto/D.proj_total), pbFaltaW=MW*(D.falta/D.proj_total);
+  const pbgY=S2Y+S2H-0.07;
+  fillRect(MX,pbgY,pbGastoW,0.06,"D97706");
+  fillRect(MX+pbGastoW,pbgY,pbFaltaW,0.06,"7C3AED");
+
+  // ── SEÇÃO 2B — PREVISÃO ──
+  const S2BY=S2Y+S2H+0.03, S2BH=0.96, halfW=(MW-0.10)/2;
+
+  // E1
+  const pv1X=MX, pv1W=halfW;
+  fillAndStroke(pv1X,S2BY,pv1W,S2BH,"FFFFFF","DDDDDD");
+  addText("Entrega 1 · Resiliencia Sistemica", pv1X+0.12,S2BY+0.08,pv1W-0.84,0.18, {fontSize:8,color:"1F2937",bold:true});
+  fillRect(pv1X+pv1W-0.72,S2BY+0.07,0.62,0.20,"E1F5EE");
+  addText(`${D._e1Pct}% concluido`, pv1X+pv1W-0.72,S2BY+0.07,0.62,0.20, {fontSize:6.5,color:"0F6E56",bold:true,align:"center",valign:"middle"});
+  addBar(pv1X+0.12,S2BY+0.31,pv1W-0.24,0.07,"E1F5EE","1D9E75",D._e1Pct);
+  const pv1ColW=(pv1W-0.24)/3;
+  [{label:"PROJETADO",cor:"1D9E75",val:D.data_proj_camadas},{label:"BASE",cor:"D97706",val:D.data_base},{label:"PESSIMISTA",cor:"DC2626",val:D.data_pess}].forEach((pv,pi) => {
+    const bx=pv1X+0.12+pi*pv1ColW;
+    fillRect(bx,S2BY+0.44,pv1ColW-0.04,0.22,pv.cor);
+    addText(pv.label, bx,S2BY+0.44,pv1ColW-0.04,0.22, {fontSize:6.5,color:"FFFFFF",bold:true,align:"center",valign:"middle"});
+    addText(pv.val,   bx,S2BY+0.68,pv1ColW-0.04,0.20, {fontSize:10.5,color:pv.cor,bold:true,align:"center"});
+  });
+
+  // E2
+  const pv2X=MX+halfW+0.10, pv2W=halfW;
+  fillAndStroke(pv2X,S2BY,pv2W,S2BH,"FFFFFF","DDDDDD");
+  addText("Entrega 2 · Observabilidade", pv2X+0.12,S2BY+0.08,pv2W-0.84,0.18, {fontSize:8,color:"1F2937",bold:true});
+  fillRect(pv2X+pv2W-0.72,S2BY+0.07,0.62,0.20,"FEE2E2");
+  addText(`${D._e2Pct}% concluido`, pv2X+pv2W-0.72,S2BY+0.07,0.62,0.20, {fontSize:6.5,color:"991B1B",bold:true,align:"center",valign:"middle"});
+  addBar(pv2X+0.12,S2BY+0.31,pv2W-0.24,0.07,"E6F1FB","1E6FA8",D._e2Pct);
+  const pv2ColW=(pv2W-0.24)/3;
+  [{label:"PROJETADO",cor:"1D9E75",val:D.data_proj},{label:"BASE",cor:"D97706",val:D.data_base_obs},{label:"PESSIMISTA",cor:"DC2626",val:D.data_pess_obs}].forEach((pv,pi) => {
+    const bx=pv2X+0.12+pi*pv2ColW;
+    fillRect(bx,S2BY+0.44,pv2ColW-0.04,0.22,pv.cor);
+    addText(pv.label, bx,S2BY+0.44,pv2ColW-0.04,0.22, {fontSize:6.5,color:"FFFFFF",bold:true,align:"center",valign:"middle"});
+    addText(pv.val,   bx,S2BY+0.68,pv2ColW-0.04,0.20, {fontSize:10.5,color:pv.cor,bold:true,align:"center"});
+  });
+
+  // ── SEÇÃO 3 — EFICIÊNCIA ──
+  const S3Y=S2BY+S2BH+0.03, S3H=0.90;
+  fillAndStroke(MX,S3Y,MW,S3H,"FFFFFF","DDDDDD");
+  addText("EFICIENCIA DA ENTREGA", MX+0.10,S3Y+0.06,MW-0.20,0.16, {fontSize:7,color:"888888"});
+  const efCols=[{val:D.ef_estourados,label:"Itens Estourados",sub:"das subs com estimativa",cor:"D85A30"},{val:D.ef_retrabalho_pct,label:"Retrabalho",sub:`${D.ef_retrabalho_bugs} Sub Bug . ${D.ef_retrabalho_h} realizadas`,cor:"534AB7"},{val:D.ef_dentro,label:"Dentro da Estimativa",sub:"entregues dentro do planejado",cor:"1D9E75"}];
+  const efColW=MW/3;
+  efCols.forEach((ef,ei) => {
+    const efx=MX+ei*efColW;
+    if (ei>0) fillRect(efx,S3Y+0.16,0.01,S3H-0.22,"E8EDF2");
+    addText(ef.val,   efx+0.10,S3Y+0.16,efColW-0.20,0.36, {fontSize:22,color:ef.cor,bold:true,align:"center"});
+    addText(ef.label, efx+0.10,S3Y+0.52,efColW-0.20,0.18, {fontSize:8,color:"222222",bold:true,align:"center"});
+    addText(ef.sub,   efx+0.10,S3Y+0.70,efColW-0.20,0.18, {fontSize:7,color:"888888",align:"center"});
+  });
+
+  // ── SEÇÃO 4 — RISCOS ──
+  const S4Y=S3Y+S3H+0.15, S4H=0.96, RW=(MW-0.09*3)/4;
+  addText("R I S C O S", MX,S4Y-0.13,MW,0.12, {fontSize:6.5,color:"888888"});
+  D.riscos.forEach((r,ri) => {
+    const rx=MX+ri*(RW+0.09);
+    fillAndStroke(rx,S4Y,RW,S4H,r.bgCor,r.bordaCor,1.5);
+    addText(r.tag,    rx+0.08,S4Y+0.07,RW-0.65,0.20, {fontSize:7,color:r.cor,bold:true});
+    fillRect(rx+RW-0.58,S4Y+0.06,0.52,0.32,r.badgeCor);
+    addText(r.badge,  rx+RW-0.58,S4Y+0.06,0.52,0.32, {fontSize:6.5,color:"FFFFFF",bold:true,align:"center",valign:"middle"});
+    addText(r.linha1, rx+0.08,S4Y+0.34,RW-0.16,0.20, {fontSize:7.5,color:"222222"});
+    addText(r.linha2, rx+0.08,S4Y+0.54,RW-0.16,0.18, {fontSize:7.5,color:"222222"});
+  });
+
+  // ── SEÇÃO 5 — TIME ──
+  const S5Y=S4Y+S4H+0.05, S5H=7.5-S5Y-0.04;
+  const nDevs=D.devs.length, nQA=D.qa.length, totalCards=nDevs+nQA;
+  const TW=(MW-0.09*(totalCards-1))/totalCards, cardH=S5H-0.09;
+  const devsFaixaW=nDevs*TW+(nDevs-1)*0.09;
+  fillRect(MX,S5Y,devsFaixaW,0.08,"374151");
+  addText("D E V S", MX,S5Y,devsFaixaW,0.08, {fontSize:7,color:"FFFFFF",bold:true,align:"center",valign:"middle"});
+  const qaStartX=MX+nDevs*(TW+0.09), qaFaixaW=nQA*TW+(nQA-1)*0.09;
+  fillRect(qaStartX,S5Y,qaFaixaW,0.08,"1E6FA8");
+  addText("Q A", qaStartX,S5Y,qaFaixaW,0.08, {fontSize:7,color:"FFFFFF",bold:true,align:"center",valign:"middle"});
+
+  [...D.devs,...D.qa].forEach((dev,di) => {
+    const isQA = di >= nDevs;
+    const tx = isQA ? qaStartX+(di-nDevs)*(TW+0.09) : MX+di*(TW+0.09);
+    const cardY = S5Y+0.09;
+    fillAndStroke(tx,cardY,TW,cardH,"FFFFFF","DDDDDD");
+    addText(dev.nome, tx+0.06,cardY+0.08,TW-0.12,0.20, {fontSize:8.5,color:"222222",bold:true,align:"center"});
+    const bpY=cardY+0.30, bpW=TW-0.12;
+    addBar(tx+0.06,bpY,bpW,0.08,"E8EDF2",dev.cor,dev.est>0?dev.real/dev.est*100:0);
+    const subsLabel = dev.subs>0 ? `${dev.real}h · ${dev.subs} subs finalizadas` : `${dev.real}h realizadas`;
+    addText(subsLabel, tx+0.06,bpY+0.10,bpW,0.24, {fontSize:9.5,color:dev.cor,bold:true,align:"center"});
+    if (dev.est>0) addText(`${dev.est}h estimadas`, tx+0.06,bpY+0.34,bpW,0.18, {fontSize:8.5,color:"888888",align:"center"});
+  });
+
+  // Salvar
+  const buf = canvas.toBuffer("image/jpeg", { quality: 0.95 });
+  fs.writeFileSync(OUTPUT_JPG, buf);
+  console.log(`✅ JPG gerado: ${OUTPUT_JPG}`);
+}
+
+
 // ── MAIN ───────────────────────────────────────────────────────────────
 async function main() {
   if (PAT === "SEU_PAT_AQUI") {
@@ -692,6 +1001,8 @@ async function main() {
     if (resp.trim().toLowerCase() === "s") {
       console.log("🔄 Gerando PPTX...");
       await gerarPPTX(M);
+      console.log("🔄 Gerando JPG...");
+      await gerarJPG(M);
     } else {
       console.log("⏭️  Geração cancelada.");
     }
