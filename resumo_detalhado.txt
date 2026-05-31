@@ -1,0 +1,72 @@
+=== REPORT QUADRO DE AULAS - RESILIENCIA SISTEMICA ===
+Gerado em: 30/05/2026, 23:22:57
+
+--- PROGRESSO GERAL ---
+Total de itens: 344
+Concluidos (Finalizado): 216 (63%)
+Em progresso: 24
+A Fazer / Backlog: 100
+
+--- HORAS ---
+Planejado (Original Estimate): 1165.5h
+Ja realizado (Completed Work): 943.3h
+Faltando (Remaining Work): 414.5h
+Projetado: 1357.8h
+Aumento de esforco: +192.3h (+16%)
+
+--- CAMADAS ---
+PRINCIPAL: ENTREGUE
+  Stories/NFTs: undefined de undefined (100%)
+  Subtarefas: undefined de undefined
+  Estimado: 237.5h | Realizado: 240.2h | Restante: 0h
+  Projetado: 240h (+2.7hh / +1%%)
+
+REDUNDANTE: 87% concluido
+  Stories/NFTs: undefined de undefined (87%)
+  Subtarefas: undefined de undefined
+  Estimado: 348.5h | Realizado: 407.4h | Restante: 17.5h
+  Projetado: 425h (+76.4hh / +22%%)
+
+COMPLEMENTARES: CANCELADO
+  Stories/NFTs: undefined de undefined (100%)
+  Subtarefas: undefined de undefined
+  Estimado: 27h | Realizado: 75.5h | Restante: 0h
+  Projetado: 76h (+48.5hh / +180%%)
+
+OBSERVABILIDADE: 28% concluido
+  Stories/NFTs: undefined de undefined (28%)
+  Subtarefas: undefined de undefined
+  Estimado: 486.5h | Realizado: 131h | Restante: 349h
+  Projetado: 480h (-6.5hh / -1%%)
+
+--- PREVISAO DE ENTREGA ---
+Entrega 1 (Resiliencia - Principal + Redundante + Complementares):
+  Projetado: 03/06/2026 | Base: 15/05/2026 | Pessimista: 29/05/2026
+Entrega 2 (Observabilidade):
+  Projetado: 25/06/2026 | Base: 29/05/2026 | Pessimista: 12/06/2026
+
+--- EFICIENCIA ---
+Itens estourados: 22.4% (34 de 152 subs com estimativa)
+Retrabalho (Sub Bugs): 9.2% - 14 Sub Bugs - 78.3h
+Dentro da estimativa: 77.6%
+
+--- TIME ---
+DEVS:
+  Gabriel Pigatto: 142.7h realizadas / 157h estimadas (91%) - 26 subs finalizadas
+  Artur Silva: 264.5h realizadas / 139.5h estimadas (190%) - 43 subs finalizadas
+  Carlos H. Almeida: 230.5h realizadas / 188h estimadas (123%) - 27 subs finalizadas
+  Maria E. Muniz: 65.5h realizadas / 34h estimadas (193%) - 17 subs finalizadas
+  Fabio Santos: 94h realizadas / 82h estimadas (115%) - 8 subs finalizadas
+  Albert V. Foureaux: 6.5h realizadas / 6.5h estimadas (100%) - 1 subs finalizadas
+QA:
+  James G. Pereira: 28h realizadas / 39h estimadas (72%) - 5 subs finalizadas
+
+--- RISCOS ---
+Refinamento pendente: 3 stories sem subtarefas
+  - #397263 undefined [undefined]
+  - #403986 undefined [undefined]
+  - #403996 undefined [undefined]
+Bug/Sustentacao: 7 Bugs - 7 SRs - 140.4h nao planejadas
+Expansao de escopo: 81 itens criados apos 01/05/2026
+  Princ +18h · Redund +84h · Obs +7h
+Sem tag: 19 itens sem camada identificada
