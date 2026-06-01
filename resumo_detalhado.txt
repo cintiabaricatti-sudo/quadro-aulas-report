@@ -1,18 +1,18 @@
 === REPORT QUADRO DE AULAS - RESILIENCIA SISTEMICA ===
-Gerado em: 30/05/2026, 23:34:45
+Gerado em: 01/06/2026, 09:24:57
 
 --- PROGRESSO GERAL ---
-Total de itens: 344
+Total de itens: 343
 Concluidos (Finalizado): 216 (63%)
 Em progresso: 24
-A Fazer / Backlog: 100
+A Fazer / Backlog: 99
 
 --- HORAS ---
-Planejado (Original Estimate): 1165.5h
+Planejado (Original Estimate): 1165h
 Ja realizado (Completed Work): 943.3h
-Faltando (Remaining Work): 414.5h
-Projetado: 1357.8h
-Aumento de esforco: +192.3h (+16%)
+Faltando (Remaining Work): 414h
+Projetado: 1357.3h
+Aumento de esforco: +192.3h (+17%)
 
 --- CAMADAS ---
 PRINCIPAL: ENTREGUE
@@ -21,11 +21,11 @@ PRINCIPAL: ENTREGUE
   Estimado: 237.5h | Realizado: 240.2h | Restante: 0h
   Projetado: 240h (+2.7hh / +1%%)
 
-REDUNDANTE: 87% concluido
+REDUNDANTE: 73% concluido
   Stories/NFTs: 5 de 11 (45%)
-  Subtarefas: 68 de 78
-  Estimado: 348.5h | Realizado: 407.4h | Restante: 17.5h
-  Projetado: 425h (+76.4hh / +22%%)
+  Subtarefas: 70 de 96
+  Estimado: 398h | Realizado: 408.7h | Restante: 65h
+  Projetado: 474h (+75.7hh / +19%%)
 
 COMPLEMENTARES: CANCELADO
   Stories/NFTs: 1 de 1 (100%)
@@ -41,9 +41,9 @@ OBSERVABILIDADE: 28% concluido
 
 --- PREVISAO DE ENTREGA ---
 Entrega 1 (Resiliencia - Principal + Redundante + Complementares):
-  Projetado: 03/06/2026 | Base: 15/05/2026 | Pessimista: 29/05/2026
+  Projetado: 04/06/2026 | Base: 15/05/2026 | Pessimista: 29/05/2026
 Entrega 2 (Observabilidade):
-  Projetado: 25/06/2026 | Base: 29/05/2026 | Pessimista: 12/06/2026
+  Projetado: 26/06/2026 | Base: 29/05/2026 | Pessimista: 12/06/2026
 
 --- EFICIENCIA ---
 Itens estourados: 22.4% (34 de 152 subs com estimativa)
@@ -67,6 +67,5 @@ Refinamento pendente: 3 stories sem subtarefas
   - #403986 "Estratégia de carga - Databricks vs. ULife Réplica" [REDUNDANTE]
   - #403996 "Pré-aquecimento de cache do Quadro de Aulas para volta às au" [PRINCIPAL]
 Bug/Sustentacao: 7 Bugs - 7 SRs - 140.4h nao planejadas
-Expansao de escopo: 81 itens criados apos 01/05/2026
-  Princ +18h · Redund +84h · Obs +7h
-Sem tag: 19 itens sem camada identificada
+Expansao de escopo: 80 itens criados apos 01/05/2026
+  Princ +18h · Redund +133h · Obs +7h
