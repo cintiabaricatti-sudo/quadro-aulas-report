@@ -1,4 +1,4 @@
-Progresso Geral: 63% concluido · 216 de 343 itens
+Progresso Geral: 63% concluido · 217 de 343 itens
 Camadas: Principal entregue · Redundante 73% · Complementares cancelada · Observabilidade 28%
 Prazo E1: Projetado 04/06/2026 · E2: Projetado 26/06/2026
 Atencao: 3 stories sem refinamento · 7 Bugs · 80 itens de expansao

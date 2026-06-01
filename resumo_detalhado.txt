@@ -1,10 +1,10 @@
 === REPORT QUADRO DE AULAS - RESILIENCIA SISTEMICA ===
-Gerado em: 01/06/2026, 09:24:57
+Gerado em: 01/06/2026, 12:20:45
 
 --- PROGRESSO GERAL ---
 Total de itens: 343
-Concluidos (Finalizado): 216 (63%)
-Em progresso: 24
+Concluidos (Finalizado): 217 (63%)
+Em progresso: 23
 A Fazer / Backlog: 99
 
 --- HORAS ---
@@ -53,7 +53,7 @@ Dentro da estimativa: 77.6%
 --- TIME ---
 DEVS:
   Gabriel Pigatto: 142.7h realizadas / 157h estimadas (91%) - 26 subs finalizadas
-  Artur Silva: 264.5h realizadas / 139.5h estimadas (190%) - 43 subs finalizadas
+  Artur Silva: 264.5h realizadas / 147.5h estimadas (179%) - 43 subs finalizadas
   Carlos H. Almeida: 230.5h realizadas / 188h estimadas (123%) - 27 subs finalizadas
   Maria E. Muniz: 65.5h realizadas / 34h estimadas (193%) - 17 subs finalizadas
   Fabio Santos: 94h realizadas / 82h estimadas (115%) - 8 subs finalizadas
