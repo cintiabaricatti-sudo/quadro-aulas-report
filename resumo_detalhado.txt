@@ -1,18 +1,18 @@
 === REPORT QUADRO DE AULAS - RESILIENCIA SISTEMICA ===
-Gerado em: 01/06/2026, 18:38:42
+Gerado em: 01/06/2026, 19:13:49
 
 --- PROGRESSO GERAL ---
 Total de itens: 345
-Concluidos (Finalizado): 229 (66%)
+Concluidos (Finalizado): 230 (67%)
 Em progresso: 14
-A Fazer / Backlog: 92
+A Fazer / Backlog: 91
 
 --- HORAS ---
 Planejado (Original Estimate): 1165h
-Ja realizado (Completed Work): 1007.3h
-Faltando (Remaining Work): 340.5h
-Projetado: 1347.8h
-Aumento de esforco: +182.8h (+16%)
+Ja realizado (Completed Work): 1010.3h
+Faltando (Remaining Work): 336.5h
+Projetado: 1346.8h
+Aumento de esforco: +181.8h (+16%)
 
 --- CAMADAS ---
 PRINCIPAL: ENTREGUE
@@ -21,11 +21,11 @@ PRINCIPAL: ENTREGUE
   Estimado: 237.5h | Realizado: 240.2h | Restante: 0h
   Projetado: 240h (+2.7hh / +1%%)
 
-REDUNDANTE: 73% concluido
+REDUNDANTE: 74% concluido
   Stories/NFTs: 5 de 11 (45%)
-  Subtarefas: 70 de 96
-  Estimado: 398h | Realizado: 415.7h | Restante: 58h
-  Projetado: 474h (+75.7hh / +19%%)
+  Subtarefas: 71 de 96
+  Estimado: 398h | Realizado: 418.7h | Restante: 54h
+  Projetado: 473h (+74.7hh / +19%%)
 
 COMPLEMENTARES: CANCELADO
   Stories/NFTs: 1 de 1 (100%)
@@ -46,15 +46,15 @@ Entrega 2 (Observabilidade):
   Projetado: 22/06/2026 | Base: 29/05/2026 | Pessimista: 12/06/2026
 
 --- EFICIENCIA ---
-Itens estourados: 21.3% (34 de 160 subs com estimativa)
-Retrabalho (Sub Bugs): 8.8% - 14 Sub Bugs - 78.3h
-Dentro da estimativa: 78.8%
+Itens estourados: 21.1% (34 de 161 subs com estimativa)
+Retrabalho (Sub Bugs): 8.7% - 14 Sub Bugs - 80.3h
+Dentro da estimativa: 78.9%
 
 --- TIME ---
 DEVS:
   Gabriel Pigatto: 142.7h realizadas / 157h estimadas (91%) - 26 subs finalizadas
-  Artur Silva: 266.5h realizadas / 147.5h estimadas (181%) - 43 subs finalizadas
-  Carlos H. Almeida: 230.5h realizadas / 188h estimadas (123%) - 27 subs finalizadas
+  Artur Silva: 267.5h realizadas / 151.5h estimadas (177%) - 44 subs finalizadas
+  Carlos H. Almeida: 232.5h realizadas / 188h estimadas (124%) - 27 subs finalizadas
   Maria E. Muniz: 65.5h realizadas / 34h estimadas (193%) - 17 subs finalizadas
   Fabio Santos: 164h realizadas / 162h estimadas (101%) - 20 subs finalizadas
   Albert V. Foureaux: 6.5h realizadas / 6.5h estimadas (100%) - 1 subs finalizadas
@@ -66,7 +66,7 @@ Refinamento pendente: 3 stories sem subtarefas
   - #397263 "Melhoria de layout na mensagem ao usuário de que o sistema e" [REDUNDANTE]
   - #403986 "Estratégia de carga - Databricks vs. ULife Réplica" [REDUNDANTE]
   - #403996 "Pré-aquecimento de cache do Quadro de Aulas para volta às au" [PRINCIPAL]
-Bug/Sustentacao: 7 Bugs - 7 SRs - 140.4h nao planejadas
+Bug/Sustentacao: 7 Bugs - 7 SRs - 142.4h nao planejadas
 Expansao de escopo: 82 itens criados apos 01/05/2026
   Princ +18h · Redund +133h · Obs +7h
 Sem tag: 2 itens sem camada identificada
