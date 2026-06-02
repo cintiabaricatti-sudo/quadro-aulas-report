@@ -1,18 +1,18 @@
 === REPORT QUADRO DE AULAS - RESILIENCIA SISTEMICA ===
-Gerado em: 02/06/2026, 10:00:03
+Gerado em: 02/06/2026, 10:28:06
 
 --- PROGRESSO GERAL ---
-Total de itens: 345
+Total de itens: 346
 Concluidos (Finalizado): 231 (67%)
-Em progresso: 16
+Em progresso: 17
 A Fazer / Backlog: 88
 
 --- HORAS ---
-Planejado (Original Estimate): 1165h
+Planejado (Original Estimate): 1167h
 Ja realizado (Completed Work): 1016.5h
-Faltando (Remaining Work): 329.3h
-Projetado: 1345.8h
-Aumento de esforco: +180.8h (+16%)
+Faltando (Remaining Work): 331.3h
+Projetado: 1347.8h
+Aumento de esforco: +180.8h (+15%)
 
 --- CAMADAS ---
 PRINCIPAL: ENTREGUE
@@ -52,11 +52,11 @@ Dentro da estimativa: 79.4%
 
 --- TIME ---
 DEVS:
-  Gabriel Pigatto: 142.7h realizadas / 157h estimadas (91%) - 26 subs finalizadas
+  Gabriel Pigatto: 147.7h realizadas / 163h estimadas (91%) - 26 subs finalizadas
   Artur Silva: 268.5h realizadas / 151.5h estimadas (177%) - 44 subs finalizadas
   Carlos H. Almeida: 237.7h realizadas / 206h estimadas (115%) - 28 subs finalizadas
   Maria E. Muniz: 65.5h realizadas / 34h estimadas (193%) - 17 subs finalizadas
-  Fabio Santos: 164h realizadas / 162h estimadas (101%) - 20 subs finalizadas
+  Fabio Santos: 164h realizadas / 164h estimadas (100%) - 20 subs finalizadas
   Albert V. Foureaux: 6.5h realizadas / 6.5h estimadas (100%) - 1 subs finalizadas
 QA:
   James G. Pereira: 28h realizadas / 39h estimadas (72%) - 5 subs finalizadas
@@ -67,5 +67,6 @@ Refinamento pendente: 3 stories sem subtarefas
   - #403986 "Estratégia de carga - Databricks vs. ULife Réplica" [REDUNDANTE]
   - #403996 "Pré-aquecimento de cache do Quadro de Aulas para volta às au" [PRINCIPAL]
 Bug/Sustentacao: 7 Bugs - 7 SRs - 142.4h nao planejadas
-Expansao de escopo: 82 itens criados apos 01/05/2026
+Expansao de escopo: 83 itens criados apos 01/05/2026
   Princ +18h · Redund +133h · Obs +7h
+Sem tag: 1 itens sem camada identificada
