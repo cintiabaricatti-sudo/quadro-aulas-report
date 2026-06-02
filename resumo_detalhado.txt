@@ -1,5 +1,5 @@
 === REPORT QUADRO DE AULAS - RESILIENCIA SISTEMICA ===
-Gerado em: 02/06/2026, 09:59:28
+Gerado em: 02/06/2026, 10:00:03
 
 --- PROGRESSO GERAL ---
 Total de itens: 345
@@ -21,9 +21,9 @@ PRINCIPAL: ENTREGUE
   Estimado: 237.5h | Realizado: 240.2h | Restante: 0h
   Projetado: 240h (+2.7hh / +1%%)
 
-REDUNDANTE: 74% concluido
+REDUNDANTE: 73% concluido
   Stories/NFTs: 5 de 11 (45%)
-  Subtarefas: 72 de 97
+  Subtarefas: 72 de 98
   Estimado: 398h | Realizado: 424.9h | Restante: 46.8h
   Projetado: 472h (+73.7hh / +19%%)
 
@@ -69,4 +69,3 @@ Refinamento pendente: 3 stories sem subtarefas
 Bug/Sustentacao: 7 Bugs - 7 SRs - 142.4h nao planejadas
 Expansao de escopo: 82 itens criados apos 01/05/2026
   Princ +18h · Redund +133h · Obs +7h
-Sem tag: 1 itens sem camada identificada
