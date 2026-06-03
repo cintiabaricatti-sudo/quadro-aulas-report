@@ -1,5 +1,5 @@
 === REPORT QUADRO DE AULAS - RESILIENCIA SISTEMICA ===
-Gerado em: 03/06/2026, 11:49:35
+Gerado em: 03/06/2026, 11:53:13
 
 --- PROGRESSO GERAL ---
 Total de itens: 347
@@ -70,3 +70,5 @@ Bug/Sustentacao: 7 Bugs - 7 SRs - 142.4h nao planejadas
 Expansao de escopo: 84 itens criados apos 01/05/2026
   Princ +18h · Redund +133h · Obs +7h
 Sem tag: 2 itens sem camada identificada
+  - #405436 [Sub Imp] [Finalizado] "Ajustes Code Review" | Dev: Fabio Santos
+  - #405571 [Sub Bug] [Finalizado] "Erro na publicação em produção" | Dev: artursilva frwk.com.br
