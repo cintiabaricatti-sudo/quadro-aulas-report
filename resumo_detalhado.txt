@@ -1,17 +1,17 @@
 === REPORT QUADRO DE AULAS - RESILIENCIA SISTEMICA ===
-Gerado em: 03/06/2026, 13:04:30
+Gerado em: 03/06/2026, 13:34:27
 
 --- PROGRESSO GERAL ---
-Total de itens: 347
-Concluidos (Finalizado): 240 (69%)
+Total de itens: 348
+Concluidos (Finalizado): 241 (69%)
 Em progresso: 15
 A Fazer / Backlog: 82
 
 --- HORAS ---
-Planejado (Original Estimate): 1166h
-Ja realizado (Completed Work): 1025h
+Planejado (Original Estimate): 1170h
+Ja realizado (Completed Work): 1029h
 Faltando (Remaining Work): 324.8h
-Projetado: 1349.8h
+Projetado: 1353.8h
 Aumento de esforco: +183.8h (+16%)
 
 --- CAMADAS ---
@@ -23,9 +23,9 @@ PRINCIPAL: ENTREGUE
 
 REDUNDANTE: 80% concluido
   Stories/NFTs: 6 de 11 (55%)
-  Subtarefas: 78 de 98
-  Estimado: 397h | Realizado: 431.9h | Restante: 42.3h
-  Projetado: 474h (+77.2hh / +19%%)
+  Subtarefas: 79 de 99
+  Estimado: 401h | Realizado: 435.9h | Restante: 42.3h
+  Projetado: 478h (+77.2hh / +19%%)
 
 COMPLEMENTARES: CANCELADO
   Stories/NFTs: 1 de 1 (100%)
@@ -46,9 +46,9 @@ Entrega 2 (Observabilidade):
   Projetado: 24/06/2026 | Base: 29/05/2026 | Pessimista: 12/06/2026
 
 --- EFICIENCIA ---
-Itens estourados: 20.1% (34 de 169 subs com estimativa)
-Retrabalho (Sub Bugs): 8.9% - 15 Sub Bugs - 81.3h
-Dentro da estimativa: 79.9%
+Itens estourados: 20.0% (34 de 170 subs com estimativa)
+Retrabalho (Sub Bugs): 8.8% - 15 Sub Bugs - 81.3h
+Dentro da estimativa: 80.0%
 
 --- TIME ---
 DEVS:
@@ -67,8 +67,8 @@ Refinamento pendente: 3 stories sem subtarefas
   - #403986 "Estratégia de carga - Databricks vs. ULife Réplica" [REDUNDANTE]
   - #403996 "Pré-aquecimento de cache do Quadro de Aulas para volta às au" [PRINCIPAL]
 Bug/Sustentacao: 7 Bugs - 7 SRs - 142.4h nao planejadas
-Expansao de escopo: 84 itens criados apos 01/05/2026
-  Princ +18h · Redund +133h · Obs +7h
+Expansao de escopo: 85 itens criados apos 01/05/2026
+  Princ +18h · Redund +137h · Obs +7h
 Sem tag: 2 itens sem camada identificada
   - #405436 [Sub Imp] [Finalizado] "Ajustes Code Review" | Dev: Fabio Santos
   - #405571 [Sub Bug] [Finalizado] "Erro na publicação em produção" | Dev: artursilva frwk.com.br
