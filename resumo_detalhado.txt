@@ -1,11 +1,11 @@
 === REPORT QUADRO DE AULAS - RESILIENCIA SISTEMICA ===
-Gerado em: 03/06/2026, 17:52:48
+Gerado em: 04/06/2026, 09:31:54
 
 --- PROGRESSO GERAL ---
-Total de itens: 347
+Total de itens: 348
 Concluidos (Finalizado): 242 (70%)
 Em progresso: 14
-A Fazer / Backlog: 81
+A Fazer / Backlog: 82
 
 --- HORAS ---
 Planejado (Original Estimate): 1166h
@@ -16,7 +16,7 @@ Aumento de esforco: +174.8h (+15%)
 
 --- CAMADAS ---
 PRINCIPAL: ENTREGUE
-  Stories/NFTs: 7 de 8 (88%)
+  Stories/NFTs: 7 de 9 (78%)
   Subtarefas: 59 de 59
   Estimado: 237.5h | Realizado: 240.2h | Restante: 0h
   Projetado: 240h (+2.7hh / +1%%)
@@ -41,9 +41,9 @@ OBSERVABILIDADE: 40% concluido
 
 --- PREVISAO DE ENTREGA ---
 Entrega 1 (Resiliencia - Principal + Redundante + Complementares):
-  Projetado: 04/06/2026 | Base: 15/05/2026 | Pessimista: 29/05/2026
+  Projetado: 05/06/2026 | Base: 15/05/2026 | Pessimista: 29/05/2026
 Entrega 2 (Observabilidade):
-  Projetado: 24/06/2026 | Base: 29/05/2026 | Pessimista: 12/06/2026
+  Projetado: 25/06/2026 | Base: 29/05/2026 | Pessimista: 12/06/2026
 
 --- EFICIENCIA ---
 Itens estourados: 20.1% (34 de 169 subs com estimativa)
@@ -62,12 +62,13 @@ QA:
   James G. Pereira: 28h realizadas / 39h estimadas (72%) - 5 subs finalizadas
 
 --- RISCOS ---
-Refinamento pendente: 3 stories sem subtarefas
+Refinamento pendente: 4 stories sem subtarefas
   - #397263 "Melhoria de layout na mensagem ao usuário de que o sistema e" [REDUNDANTE]
   - #403986 "Estratégia de carga - Databricks vs. ULife Réplica" [REDUNDANTE]
   - #403996 "Pré-aquecimento de cache do Quadro de Aulas para volta às au" [PRINCIPAL]
+  - #406159 "Aquecimento e invalidação de cache do Quadro de Aulas" [PRINCIPAL]
 Bug/Sustentacao: 7 Bugs - 7 SRs - 142.4h nao planejadas
-Expansao de escopo: 84 itens criados apos 01/05/2026
+Expansao de escopo: 85 itens criados apos 01/05/2026
   Princ +18h · Redund +133h · Obs +7h
 Sem tag: 2 itens sem camada identificada
   - #405436 [Sub Imp] [Finalizado] "Ajustes Code Review" | Dev: Fabio Santos
