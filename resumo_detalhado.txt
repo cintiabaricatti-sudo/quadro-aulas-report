@@ -1,5 +1,5 @@
 === REPORT QUADRO DE AULAS - RESILIENCIA SISTEMICA ===
-Gerado em: 04/06/2026, 09:31:54
+Gerado em: 04/06/2026, 09:37:28
 
 --- PROGRESSO GERAL ---
 Total de itens: 348
@@ -23,9 +23,9 @@ PRINCIPAL: ENTREGUE
 
 REDUNDANTE: 82% concluido
   Stories/NFTs: 6 de 11 (55%)
-  Subtarefas: 80 de 98
-  Estimado: 397h | Realizado: 434.9h | Restante: 30.3h
-  Projetado: 465h (+68.2hh / +17%%)
+  Subtarefas: 81 de 99
+  Estimado: 397h | Realizado: 435.9h | Restante: 30.3h
+  Projetado: 466h (+69.2hh / +17%%)
 
 COMPLEMENTARES: CANCELADO
   Stories/NFTs: 1 de 1 (100%)
@@ -35,9 +35,9 @@ COMPLEMENTARES: CANCELADO
 
 OBSERVABILIDADE: 40% concluido
   Stories/NFTs: 0 de 16 (0%)
-  Subtarefas: 42 de 106
-  Estimado: 486.5h | Realizado: 188h | Restante: 282.5h
-  Projetado: 471h (-16.0hh / -3%%)
+  Subtarefas: 43 de 107
+  Estimado: 488.5h | Realizado: 188.5h | Restante: 282.5h
+  Projetado: 471h (-17.5hh / -4%%)
 
 --- PREVISAO DE ENTREGA ---
 Entrega 1 (Resiliencia - Principal + Redundante + Complementares):
@@ -69,7 +69,4 @@ Refinamento pendente: 4 stories sem subtarefas
   - #406159 "Aquecimento e invalidação de cache do Quadro de Aulas" [PRINCIPAL]
 Bug/Sustentacao: 7 Bugs - 7 SRs - 142.4h nao planejadas
 Expansao de escopo: 85 itens criados apos 01/05/2026
-  Princ +18h · Redund +133h · Obs +7h
-Sem tag: 2 itens sem camada identificada
-  - #405436 [Sub Imp] [Finalizado] "Ajustes Code Review" | Dev: Fabio Santos
-  - #405571 [Sub Bug] [Finalizado] "Erro na publicação em produção" | Dev: artursilva frwk.com.br
+  Princ +18h · Redund +133h · Obs +9h
