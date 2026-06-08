@@ -1,31 +1,31 @@
 === REPORT QUADRO DE AULAS - RESILIENCIA SISTEMICA ===
-Gerado em: 08/06/2026, 09:09:49
+Gerado em: 08/06/2026, 18:52:09
 
 --- PROGRESSO GERAL ---
 Total de itens: 358
-Concluidos (Finalizado): 244 (68%)
+Concluidos (Finalizado): 246 (69%)
 Em progresso: 15
-A Fazer / Backlog: 89
+A Fazer / Backlog: 87
 
 --- HORAS ---
-Planejado (Original Estimate): 1202.5h
-Ja realizado (Completed Work): 1035.5h
-Faltando (Remaining Work): 347.3h
-Projetado: 1382.8h
-Aumento de esforco: +180.3h (+15%)
+Planejado (Original Estimate): 1207.5h
+Ja realizado (Completed Work): 1039.5h
+Faltando (Remaining Work): 342.5h
+Projetado: 1382h
+Aumento de esforco: +174.5h (+14%)
 
 --- CAMADAS ---
 PRINCIPAL: ENTREGUE
-  Stories/NFTs: 7 de 9 (78%)
+  Stories/NFTs: 7 de 8 (88%)
   Subtarefas: 59 de 59
   Estimado: 237.5h | Realizado: 240.2h | Restante: 0h
   Projetado: 240h (+2.7hh / +1%%)
 
-REDUNDANTE: 83% concluido
+REDUNDANTE: 84% concluido
   Stories/NFTs: 6 de 10 (60%)
-  Subtarefas: 82 de 99
-  Estimado: 397h | Realizado: 436.4h | Restante: 28.3h
-  Projetado: 465h (+67.7hh / +17%%)
+  Subtarefas: 83 de 99
+  Estimado: 397h | Realizado: 436.4h | Restante: 23.5h
+  Projetado: 460h (+62.9hh / +16%%)
 
 COMPLEMENTARES: CANCELADO
   Stories/NFTs: 1 de 1 (100%)
@@ -46,15 +46,15 @@ Entrega 2 (Observabilidade):
   Projetado: 29/06/2026 | Base: 29/05/2026 | Pessimista: 12/06/2026
 
 --- EFICIENCIA ---
-Itens estourados: 20.0% (34 de 170 subs com estimativa)
+Itens estourados: 19.9% (34 de 171 subs com estimativa)
 Retrabalho (Sub Bugs): 8.8% - 15 Sub Bugs - 81.3h
-Dentro da estimativa: 80.0%
+Dentro da estimativa: 80.1%
 
 --- TIME ---
 DEVS:
-  Gabriel Pigatto: 160.7h realizadas / 164.5h estimadas (98%) - 32 subs finalizadas
+  Gabriel Pigatto: 164.7h realizadas / 169.5h estimadas (97%) - 33 subs finalizadas
   Artur Silva: 269.5h realizadas / 151.5h estimadas (178%) - 45 subs finalizadas
-  Carlos H. Almeida: 237.7h realizadas / 206h estimadas (115%) - 29 subs finalizadas
+  Carlos H. Almeida: 237.7h realizadas / 214h estimadas (111%) - 30 subs finalizadas
   Maria E. Muniz: 65.5h realizadas / 34h estimadas (193%) - 17 subs finalizadas
   Fabio Santos: 164.5h realizadas / 164h estimadas (100%) - 21 subs finalizadas
   Albert V. Foureaux: 6.5h realizadas / 6.5h estimadas (100%) - 1 subs finalizadas
@@ -62,13 +62,12 @@ QA:
   James G. Pereira: 28h realizadas / 39h estimadas (72%) - 5 subs finalizadas
 
 --- RISCOS ---
-Refinamento pendente: 2 stories sem subtarefas
+Refinamento pendente: 1 stories sem subtarefas
   - #403986 "Estratégia de carga - Databricks vs. ULife Réplica" [REDUNDANTE]
-  - #403996 "Pré-aquecimento de cache do Quadro de Aulas para volta às au" [PRINCIPAL]
 Bug/Sustentacao: 7 Bugs - 7 SRs - 142.4h nao planejadas
 Expansao de escopo: 95 itens criados apos 01/05/2026
   Princ +18h · Redund +133h · Obs +9h
-Sem tag: 11 itens sem camada identificada
+Sem tag: 12 itens sem camada identificada
   - #406436 [Sub Imp] [A Fazer] "[backend] Estrutura base do job de aquecimento" | Dev: Sem dev
   - #406437 [Sub Imp] [A Fazer] "[backend] Repositório de origem (Databricks)" | Dev: Sem dev
   - #406438 [Sub Imp] [A Fazer] "[backend] Serviço e worker de orquestração" | Dev: Sem dev
@@ -80,3 +79,4 @@ Sem tag: 11 itens sem camada identificada
   - #406444 [Sub Test] [A Fazer] "Testes" | Dev: Sem dev
   - #406445 [Sub Value Activation] [A Fazer] "Publicação" | Dev: Sem dev
   - #406457 [Sub Imp] [Finalizado] "[frontend] Correção mensagens de contingencia" | Dev: gabrielpigatto frwk.com.br
+  - #406602 [Sub Imp] [Finalizado] "[frontend] Restringir botão de gravação em contingencia" | Dev: gabrielpigatto frwk.com.br
