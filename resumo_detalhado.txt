@@ -1,5 +1,5 @@
 === REPORT QUADRO DE AULAS - RESILIENCIA SISTEMICA ===
-Gerado em: 08/06/2026, 18:52:09
+Gerado em: 08/06/2026, 21:52:48
 
 --- PROGRESSO GERAL ---
 Total de itens: 358
@@ -9,10 +9,10 @@ A Fazer / Backlog: 87
 
 --- HORAS ---
 Planejado (Original Estimate): 1207.5h
-Ja realizado (Completed Work): 1039.5h
+Ja realizado (Completed Work): 1042.5h
 Faltando (Remaining Work): 342.5h
-Projetado: 1382h
-Aumento de esforco: +174.5h (+14%)
+Projetado: 1385h
+Aumento de esforco: +177.5h (+15%)
 
 --- CAMADAS ---
 PRINCIPAL: ENTREGUE
@@ -24,8 +24,8 @@ PRINCIPAL: ENTREGUE
 REDUNDANTE: 84% concluido
   Stories/NFTs: 6 de 10 (60%)
   Subtarefas: 83 de 99
-  Estimado: 397h | Realizado: 436.4h | Restante: 23.5h
-  Projetado: 460h (+62.9hh / +16%%)
+  Estimado: 397h | Realizado: 439.4h | Restante: 23.5h
+  Projetado: 463h (+65.9hh / +17%%)
 
 COMPLEMENTARES: CANCELADO
   Stories/NFTs: 1 de 1 (100%)
@@ -54,7 +54,7 @@ Dentro da estimativa: 80.1%
 DEVS:
   Gabriel Pigatto: 164.7h realizadas / 169.5h estimadas (97%) - 33 subs finalizadas
   Artur Silva: 269.5h realizadas / 151.5h estimadas (178%) - 45 subs finalizadas
-  Carlos H. Almeida: 237.7h realizadas / 214h estimadas (111%) - 30 subs finalizadas
+  Carlos H. Almeida: 240.7h realizadas / 214h estimadas (112%) - 30 subs finalizadas
   Maria E. Muniz: 65.5h realizadas / 34h estimadas (193%) - 17 subs finalizadas
   Fabio Santos: 164.5h realizadas / 164h estimadas (100%) - 21 subs finalizadas
   Albert V. Foureaux: 6.5h realizadas / 6.5h estimadas (100%) - 1 subs finalizadas
