@@ -1,18 +1,18 @@
 === REPORT QUADRO DE AULAS - RESILIENCIA SISTEMICA ===
-Gerado em: 09/06/2026, 08:09:53
+Gerado em: 09/06/2026, 20:15:53
 
 --- PROGRESSO GERAL ---
 Total de itens: 358
-Concluidos (Finalizado): 246 (69%)
-Em progresso: 15
-A Fazer / Backlog: 87
+Concluidos (Finalizado): 253 (71%)
+Em progresso: 16
+A Fazer / Backlog: 79
 
 --- HORAS ---
 Planejado (Original Estimate): 1207.5h
-Ja realizado (Completed Work): 1042.5h
-Faltando (Remaining Work): 342.5h
-Projetado: 1385h
-Aumento de esforco: +177.5h (+15%)
+Ja realizado (Completed Work): 1057.5h
+Faltando (Remaining Work): 322.5h
+Projetado: 1380h
+Aumento de esforco: +172.5h (+14%)
 
 --- CAMADAS ---
 PRINCIPAL: 86% concluido
@@ -21,11 +21,12 @@ PRINCIPAL: 86% concluido
   Estimado: 274h | Realizado: 240.2h | Restante: 36.5h
   Projetado: 277h (+2.7hh / +1%%)
 
-REDUNDANTE: 84% concluido
+REDUNDANTE: 85% concluido
   Stories/NFTs: 6 de 10 (60%)
-  Subtarefas: 85 de 101
-  Estimado: 402h | Realizado: 450.4h | Restante: 23.5h
-  Projetado: 474h (+71.9hh / +18%%)
+  Subtarefas: 86 de 101
+  Estimado: 402h | Realizado: 462.4h | Restante: 15.5h
+  Projetado: 478h (+75.9hh / +19%%)
+  Estouros ativos: #404993 artursilva frwk.com.br +3h
 
 COMPLEMENTARES: CANCELADO
   Stories/NFTs: 1 de 1 (100%)
@@ -33,29 +34,29 @@ COMPLEMENTARES: CANCELADO
   Estimado: 27h | Realizado: 75.5h | Restante: 0h
   Projetado: 76h (+48.5hh / +180%%)
 
-OBSERVABILIDADE: 40% concluido
+OBSERVABILIDADE: 46% concluido
   Stories/NFTs: 0 de 16 (0%)
-  Subtarefas: 43 de 107
-  Estimado: 488.5h | Realizado: 188.5h | Restante: 282.5h
-  Projetado: 471h (-17.5hh / -4%%)
+  Subtarefas: 49 de 107
+  Estimado: 488.5h | Realizado: 191.5h | Restante: 270.5h
+  Projetado: 462h (-26.5hh / -5%%)
 
 --- PREVISAO DE ENTREGA ---
 Entrega 1 (Resiliencia - Principal + Redundante + Complementares):
-  Projetado: 12/06/2026 | Base: 15/05/2026 | Pessimista: 29/05/2026
+  Projetado: 11/06/2026 | Base: 15/05/2026 | Pessimista: 29/05/2026
 Entrega 2 (Observabilidade):
   Projetado: 30/06/2026 | Base: 29/05/2026 | Pessimista: 12/06/2026
 
 --- EFICIENCIA ---
-Itens estourados: 19.9% (34 de 171 subs com estimativa)
-Retrabalho (Sub Bugs): 8.8% - 15 Sub Bugs - 81.3h
-Dentro da estimativa: 80.1%
+Itens estourados: 19.7% (35 de 178 subs com estimativa)
+Retrabalho (Sub Bugs): 8.4% - 15 Sub Bugs - 81.3h
+Dentro da estimativa: 80.3%
 
 --- TIME ---
 DEVS:
-  Gabriel Pigatto: 164.7h realizadas / 169.5h estimadas (97%) - 33 subs finalizadas
-  Artur Silva: 269.5h realizadas / 151.5h estimadas (178%) - 45 subs finalizadas
-  Carlos H. Almeida: 240.7h realizadas / 214h estimadas (112%) - 30 subs finalizadas
-  Maria E. Muniz: 65.5h realizadas / 34h estimadas (193%) - 17 subs finalizadas
+  Gabriel Pigatto: 164.7h realizadas / 173.5h estimadas (95%) - 33 subs finalizadas
+  Artur Silva: 275.5h realizadas / 151.5h estimadas (182%) - 45 subs finalizadas
+  Carlos H. Almeida: 246.7h realizadas / 214h estimadas (115%) - 31 subs finalizadas
+  Maria E. Muniz: 65.5h realizadas / 37h estimadas (177%) - 17 subs finalizadas
   Fabio Santos: 164.5h realizadas / 164h estimadas (100%) - 21 subs finalizadas
   Albert V. Foureaux: 6.5h realizadas / 6.5h estimadas (100%) - 1 subs finalizadas
 QA:
