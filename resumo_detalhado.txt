@@ -1,5 +1,5 @@
 === REPORT QUADRO DE AULAS - RESILIENCIA SISTEMICA ===
-Gerado em: 09/06/2026, 20:15:53
+Gerado em: 10/06/2026, 08:39:35
 
 --- PROGRESSO GERAL ---
 Total de itens: 358
@@ -42,9 +42,9 @@ OBSERVABILIDADE: 46% concluido
 
 --- PREVISAO DE ENTREGA ---
 Entrega 1 (Resiliencia - Principal + Redundante + Complementares):
-  Projetado: 11/06/2026 | Base: 15/05/2026 | Pessimista: 29/05/2026
+  Projetado: 12/06/2026 | Base: 15/05/2026 | Pessimista: 29/05/2026
 Entrega 2 (Observabilidade):
-  Projetado: 30/06/2026 | Base: 29/05/2026 | Pessimista: 12/06/2026
+  Projetado: 01/07/2026 | Base: 29/05/2026 | Pessimista: 12/06/2026
 
 --- EFICIENCIA ---
 Itens estourados: 19.7% (35 de 178 subs com estimativa)
