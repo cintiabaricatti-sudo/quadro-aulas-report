@@ -1,31 +1,31 @@
 === REPORT QUADRO DE AULAS - RESILIENCIA SISTEMICA ===
-Gerado em: 10/06/2026, 08:39:35
+Gerado em: 10/06/2026, 09:58:44
 
 --- PROGRESSO GERAL ---
 Total de itens: 358
-Concluidos (Finalizado): 253 (71%)
-Em progresso: 16
-A Fazer / Backlog: 79
+Concluidos (Finalizado): 256 (72%)
+Em progresso: 15
+A Fazer / Backlog: 77
 
 --- HORAS ---
 Planejado (Original Estimate): 1207.5h
-Ja realizado (Completed Work): 1057.5h
-Faltando (Remaining Work): 322.5h
-Projetado: 1380h
-Aumento de esforco: +172.5h (+14%)
+Ja realizado (Completed Work): 1072.5h
+Faltando (Remaining Work): 306.5h
+Projetado: 1379h
+Aumento de esforco: +171.5h (+14%)
 
 --- CAMADAS ---
-PRINCIPAL: 86% concluido
+PRINCIPAL: 88% concluido
   Stories/NFTs: 7 de 8 (88%)
-  Subtarefas: 59 de 69
-  Estimado: 274h | Realizado: 240.2h | Restante: 36.5h
-  Projetado: 277h (+2.7hh / +1%%)
+  Subtarefas: 61 de 69
+  Estimado: 274h | Realizado: 249.2h | Restante: 23.5h
+  Projetado: 273h (-1.3hh / +0%%)
 
-REDUNDANTE: 85% concluido
+REDUNDANTE: 86% concluido
   Stories/NFTs: 6 de 10 (60%)
-  Subtarefas: 86 de 101
-  Estimado: 402h | Realizado: 462.4h | Restante: 15.5h
-  Projetado: 478h (+75.9hh / +19%%)
+  Subtarefas: 87 de 101
+  Estimado: 402h | Realizado: 468.4h | Restante: 12.5h
+  Projetado: 481h (+78.9hh / +20%%)
   Estouros ativos: #404993 artursilva frwk.com.br +3h
 
 COMPLEMENTARES: CANCELADO
@@ -47,16 +47,16 @@ Entrega 2 (Observabilidade):
   Projetado: 01/07/2026 | Base: 29/05/2026 | Pessimista: 12/06/2026
 
 --- EFICIENCIA ---
-Itens estourados: 19.7% (35 de 178 subs com estimativa)
-Retrabalho (Sub Bugs): 8.4% - 15 Sub Bugs - 81.3h
-Dentro da estimativa: 80.3%
+Itens estourados: 19.8% (36 de 182 subs com estimativa)
+Retrabalho (Sub Bugs): 8.2% - 15 Sub Bugs - 81.3h
+Dentro da estimativa: 80.2%
 
 --- TIME ---
 DEVS:
-  Gabriel Pigatto: 164.7h realizadas / 173.5h estimadas (95%) - 33 subs finalizadas
+  Gabriel Pigatto: 173.7h realizadas / 189.5h estimadas (92%) - 35 subs finalizadas
   Artur Silva: 275.5h realizadas / 151.5h estimadas (182%) - 45 subs finalizadas
   Carlos H. Almeida: 246.7h realizadas / 214h estimadas (115%) - 31 subs finalizadas
-  Maria E. Muniz: 65.5h realizadas / 37h estimadas (177%) - 17 subs finalizadas
+  Maria E. Muniz: 71.5h realizadas / 37h estimadas (193%) - 18 subs finalizadas
   Fabio Santos: 164.5h realizadas / 164h estimadas (100%) - 21 subs finalizadas
   Albert V. Foureaux: 6.5h realizadas / 6.5h estimadas (100%) - 1 subs finalizadas
 QA:
