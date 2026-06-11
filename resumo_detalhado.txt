@@ -1,31 +1,31 @@
 === REPORT QUADRO DE AULAS - RESILIENCIA SISTEMICA ===
-Gerado em: 10/06/2026, 16:39:39
+Gerado em: 11/06/2026, 09:55:38
 
 --- PROGRESSO GERAL ---
 Total de itens: 359
-Concluidos (Finalizado): 258 (72%)
+Concluidos (Finalizado): 260 (72%)
 Em progresso: 16
-A Fazer / Backlog: 75
+A Fazer / Backlog: 72
 
 --- HORAS ---
 Planejado (Original Estimate): 1210.5h
-Ja realizado (Completed Work): 1074.5h
-Faltando (Remaining Work): 309.5h
-Projetado: 1384h
-Aumento de esforco: +173.5h (+14%)
+Ja realizado (Completed Work): 1089.5h
+Faltando (Remaining Work): 291.5h
+Projetado: 1381h
+Aumento de esforco: +170.5h (+14%)
 
 --- CAMADAS ---
-PRINCIPAL: 88% concluido
+PRINCIPAL: 91% concluido
   Stories/NFTs: 7 de 8 (88%)
-  Subtarefas: 61 de 69
-  Estimado: 274h | Realizado: 249.2h | Restante: 23.5h
-  Projetado: 273h (-1.3hh / +0%%)
+  Subtarefas: 63 de 69
+  Estimado: 274h | Realizado: 258.2h | Restante: 8.5h
+  Projetado: 267h (-7.3hh / -3%%)
 
 REDUNDANTE: 86% concluido
   Stories/NFTs: 6 de 10 (60%)
   Subtarefas: 87 de 101
-  Estimado: 402h | Realizado: 468.4h | Restante: 12.5h
-  Projetado: 481h (+78.9hh / +20%%)
+  Estimado: 402h | Realizado: 471.4h | Restante: 12.5h
+  Projetado: 484h (+81.9hh / +20%%)
   Estouros ativos: #404993 artursilva frwk.com.br +3h
 
 COMPLEMENTARES: CANCELADO
@@ -44,19 +44,19 @@ OBSERVABILIDADE: 48% concluido
 Entrega 1 (Resiliencia - Principal + Redundante + Complementares):
   Projetado: 12/06/2026 | Base: 15/05/2026 | Pessimista: 29/05/2026
 Entrega 2 (Observabilidade):
-  Projetado: 01/07/2026 | Base: 29/05/2026 | Pessimista: 12/06/2026
+  Projetado: 02/07/2026 | Base: 29/05/2026 | Pessimista: 12/06/2026
 
 --- EFICIENCIA ---
-Itens estourados: 19.8% (36 de 182 subs com estimativa)
-Retrabalho (Sub Bugs): 8.2% - 15 Sub Bugs - 83.3h
-Dentro da estimativa: 80.2%
+Itens estourados: 19.6% (36 de 184 subs com estimativa)
+Retrabalho (Sub Bugs): 8.2% - 15 Sub Bugs - 86.3h
+Dentro da estimativa: 80.4%
 
 --- TIME ---
 DEVS:
-  Gabriel Pigatto: 173.7h realizadas / 189.5h estimadas (92%) - 35 subs finalizadas
+  Gabriel Pigatto: 182.7h realizadas / 198h estimadas (92%) - 37 subs finalizadas
   Artur Silva: 275.5h realizadas / 151.5h estimadas (182%) - 45 subs finalizadas
-  Carlos H. Almeida: 246.7h realizadas / 217h estimadas (114%) - 31 subs finalizadas
-  Maria E. Muniz: 71.5h realizadas / 37h estimadas (193%) - 18 subs finalizadas
+  Carlos H. Almeida: 252.7h realizadas / 217h estimadas (116%) - 31 subs finalizadas
+  Maria E. Muniz: 71.5h realizadas / 43h estimadas (166%) - 18 subs finalizadas
   Fabio Santos: 166.5h realizadas / 164h estimadas (102%) - 23 subs finalizadas
   Albert V. Foureaux: 6.5h realizadas / 6.5h estimadas (100%) - 1 subs finalizadas
 QA:
@@ -65,7 +65,7 @@ QA:
 --- RISCOS ---
 Refinamento pendente: 1 stories sem subtarefas
   - #403986 "Estratégia de carga - Databricks vs. ULife Réplica" [REDUNDANTE]
-Bug/Sustentacao: 7 Bugs - 7 SRs - 142.4h nao planejadas
+Bug/Sustentacao: 7 Bugs - 7 SRs - 145.4h nao planejadas
 Expansao de escopo: 96 itens criados apos 01/05/2026
   Princ +55h · Redund +138h · Obs +9h
 Sem tag: 1 itens sem camada identificada
