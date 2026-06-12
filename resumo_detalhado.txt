@@ -1,18 +1,18 @@
 === REPORT QUADRO DE AULAS - RESILIENCIA SISTEMICA ===
-Gerado em: 12/06/2026, 15:28:51
+Gerado em: 12/06/2026, 17:40:51
 
 --- PROGRESSO GERAL ---
 Total de itens: 370
-Concluidos (Finalizado): 285 (77%)
+Concluidos (Finalizado): 287 (78%)
 Em progresso: 18
-A Fazer / Backlog: 56
+A Fazer / Backlog: 54
 
 --- HORAS ---
 Planejado (Original Estimate): 1210.5h
-Ja realizado (Completed Work): 1166.5h
+Ja realizado (Completed Work): 1168h
 Faltando (Remaining Work): 155.5h
-Projetado: 1322h
-Aumento de esforco: +111.5h (+9%)
+Projetado: 1323.5h
+Aumento de esforco: +113h (+9%)
 
 --- CAMADAS ---
 PRINCIPAL: 94% concluido
@@ -48,7 +48,7 @@ Entrega 2 (Observabilidade):
 
 --- EFICIENCIA ---
 Itens estourados: 18.1% (37 de 204 subs com estimativa)
-Retrabalho (Sub Bugs): 11.8% - 24 Sub Bugs - 105.3h
+Retrabalho (Sub Bugs): 11.8% - 24 Sub Bugs - 106.8h
 Dentro da estimativa: 81.9%
 
 --- TIME ---
@@ -57,7 +57,7 @@ DEVS:
   Artur Silva: 290.5h realizadas / 151.5h estimadas (192%) - 46 subs finalizadas
   Carlos H. Almeida: 254.7h realizadas / 217h estimadas (117%) - 32 subs finalizadas
   Maria E. Muniz: 83.5h realizadas / 49h estimadas (170%) - 19 subs finalizadas
-  Fabio Santos: 207h realizadas / 292h estimadas (71%) - 42 subs finalizadas
+  Fabio Santos: 208.5h realizadas / 292h estimadas (71%) - 44 subs finalizadas
   Albert V. Foureaux: 6.5h realizadas / 6.5h estimadas (100%) - 1 subs finalizadas
 QA:
   James G. Pereira: 30h realizadas / 33h estimadas (91%) - 5 subs finalizadas
@@ -76,8 +76,8 @@ Sem tag: 11 itens sem camada identificada
   - #408247 [Sub Bug] [Finalizado] "Filtro por status não traz os valores corretos" | Dev: Fabio Santos
   - #408249 [Sub Bug] [Finalizado] "Filtros avançados não funcionam corretamente" | Dev: Fabio Santos
   - #408253 [Sub Bug] [Finalizado] "Filtro por nome ou RA não traz nenhum registro" | Dev: Fabio Santos
-  - #408254 [Sub Bug] [A Fazer] "Os dados não são recarregados após 15 minutos" | Dev: Fabio Santos
-  - #408255 [Sub Bug] [A Fazer] "A data do cabeçalho não atualizou depois de alterar a visão" | Dev: Fabio Santos
+  - #408254 [Sub Bug] [Finalizado] "Os dados não são recarregados após 15 minutos" | Dev: Fabio Santos
+  - #408255 [Sub Bug] [Finalizado] "A data do cabeçalho não atualizou depois de alterar a visão" | Dev: Fabio Santos
   - #407538 [Sub Imp] [Em Desenvolvimento] "Ajustes de CR" | Dev: CARLOS HENRIQUE ALMEIDA OLIVEIRA
   - #408218 [Sub Test] [Finalizado] "Teste do bug" | Dev: MARIA EDUARDA AMARAL MUNIZ
   - #408284 [Sub Bug] [Finalizado] "Consulta de link nao retorna resultado" | Dev: artursilva frwk.com.br
