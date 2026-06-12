@@ -1,32 +1,32 @@
 === REPORT QUADRO DE AULAS - RESILIENCIA SISTEMICA ===
-Gerado em: 12/06/2026, 09:26:57
+Gerado em: 12/06/2026, 15:28:51
 
 --- PROGRESSO GERAL ---
-Total de itens: 361
-Concluidos (Finalizado): 278 (77%)
+Total de itens: 370
+Concluidos (Finalizado): 285 (77%)
 Em progresso: 18
-A Fazer / Backlog: 54
+A Fazer / Backlog: 56
 
 --- HORAS ---
 Planejado (Original Estimate): 1210.5h
-Ja realizado (Completed Work): 1131h
-Faltando (Remaining Work): 170h
-Projetado: 1301h
-Aumento de esforco: +90.5h (+7%)
+Ja realizado (Completed Work): 1166.5h
+Faltando (Remaining Work): 155.5h
+Projetado: 1322h
+Aumento de esforco: +111.5h (+9%)
 
 --- CAMADAS ---
-PRINCIPAL: 93% concluido
+PRINCIPAL: 94% concluido
   Stories/NFTs: 7 de 8 (88%)
-  Subtarefas: 64 de 69
-  Estimado: 274h | Realizado: 259.2h | Restante: 7.5h
+  Subtarefas: 65 de 69
+  Estimado: 274h | Realizado: 259.7h | Restante: 7h
   Projetado: 267h (-7.3hh / -3%%)
 
 REDUNDANTE: 88% concluido
   Stories/NFTs: 6 de 10 (60%)
   Subtarefas: 89 de 101
-  Estimado: 402h | Realizado: 471.9h | Restante: 11.5h
-  Projetado: 483h (+81.4hh / +20%%)
-  Estouros ativos: #404993 artursilva frwk.com.br +3h
+  Estimado: 402h | Realizado: 475.9h | Restante: 11.5h
+  Projetado: 487h (+85.4hh / +21%%)
+  Estouros ativos: #404993 artursilva frwk.com.br +5h
 
 COMPLEMENTARES: CANCELADO
   Stories/NFTs: 1 de 1 (100%)
@@ -34,30 +34,30 @@ COMPLEMENTARES: CANCELADO
   Estimado: 27h | Realizado: 75.5h | Restante: 0h
   Projetado: 76h (+48.5hh / +180%%)
 
-OBSERVABILIDADE: 61% concluido
+OBSERVABILIDADE: 62% concluido
   Stories/NFTs: 0 de 17 (0%)
-  Subtarefas: 65 de 107
-  Estimado: 488.5h | Realizado: 230.5h | Restante: 151h
-  Projetado: 382h (-107.0hh / -22%%)
+  Subtarefas: 66 de 107
+  Estimado: 488.5h | Realizado: 237.5h | Restante: 137h
+  Projetado: 375h (-114.0hh / -23%%)
 
 --- PREVISAO DE ENTREGA ---
 Entrega 1 (Resiliencia - Principal + Redundante + Complementares):
   Projetado: 15/06/2026 | Base: 15/05/2026 | Pessimista: 29/05/2026
 Entrega 2 (Observabilidade):
-  Projetado: 24/06/2026 | Base: 29/05/2026 | Pessimista: 12/06/2026
+  Projetado: 23/06/2026 | Base: 29/05/2026 | Pessimista: 12/06/2026
 
 --- EFICIENCIA ---
-Itens estourados: 18.4% (37 de 201 subs com estimativa)
-Retrabalho (Sub Bugs): 8.0% - 16 Sub Bugs - 87.3h
-Dentro da estimativa: 81.6%
+Itens estourados: 18.1% (37 de 204 subs com estimativa)
+Retrabalho (Sub Bugs): 11.8% - 24 Sub Bugs - 105.3h
+Dentro da estimativa: 81.9%
 
 --- TIME ---
 DEVS:
-  Gabriel Pigatto: 185.7h realizadas / 212h estimadas (88%) - 39 subs finalizadas
-  Artur Silva: 275.5h realizadas / 151.5h estimadas (182%) - 45 subs finalizadas
+  Gabriel Pigatto: 191.2h realizadas / 212h estimadas (90%) - 40 subs finalizadas
+  Artur Silva: 290.5h realizadas / 151.5h estimadas (192%) - 46 subs finalizadas
   Carlos H. Almeida: 254.7h realizadas / 217h estimadas (117%) - 32 subs finalizadas
-  Maria E. Muniz: 74.5h realizadas / 43h estimadas (173%) - 18 subs finalizadas
-  Fabio Santos: 201h realizadas / 284h estimadas (71%) - 38 subs finalizadas
+  Maria E. Muniz: 83.5h realizadas / 49h estimadas (170%) - 19 subs finalizadas
+  Fabio Santos: 207h realizadas / 292h estimadas (71%) - 42 subs finalizadas
   Albert V. Foureaux: 6.5h realizadas / 6.5h estimadas (100%) - 1 subs finalizadas
 QA:
   James G. Pereira: 30h realizadas / 33h estimadas (91%) - 5 subs finalizadas
@@ -66,9 +66,18 @@ QA:
 Refinamento pendente: 2 stories sem subtarefas
   - #403986 "Estratégia de carga - Databricks vs. ULife Réplica" [REDUNDANTE]
   - #408179 "Observabilidade de links de aulas digitais e gravações para " [OBSERVABILIDADE]
-Bug/Sustentacao: 7 Bugs - 7 SRs - 145.4h nao planejadas
-Expansao de escopo: 98 itens criados apos 01/05/2026
+Bug/Sustentacao: 7 Bugs - 7 SRs - 151.4h nao planejadas
+Expansao de escopo: 107 itens criados apos 01/05/2026
   Princ +55h · Redund +138h · Obs +9h
-Sem tag: 2 itens sem camada identificada
+Sem tag: 11 itens sem camada identificada
   - #408136 [Sub Bug] [Finalizado] "Filtros da lista de alunos com problema não estão funcionand" | Dev: Fabio Santos
+  - #408205 [Sub Bug] [A Fazer] "Diagnostico está mostrando apenas as UCs com problemas" | Dev: Sem dev
+  - #408209 [Sub Bug] [A Fazer] "gráficos e listagem de diagnóstico exibindo apenas três tipo" | Dev: Sem dev
+  - #408247 [Sub Bug] [Finalizado] "Filtro por status não traz os valores corretos" | Dev: Fabio Santos
+  - #408249 [Sub Bug] [Finalizado] "Filtros avançados não funcionam corretamente" | Dev: Fabio Santos
+  - #408253 [Sub Bug] [Finalizado] "Filtro por nome ou RA não traz nenhum registro" | Dev: Fabio Santos
+  - #408254 [Sub Bug] [A Fazer] "Os dados não são recarregados após 15 minutos" | Dev: Fabio Santos
+  - #408255 [Sub Bug] [A Fazer] "A data do cabeçalho não atualizou depois de alterar a visão" | Dev: Fabio Santos
   - #407538 [Sub Imp] [Em Desenvolvimento] "Ajustes de CR" | Dev: CARLOS HENRIQUE ALMEIDA OLIVEIRA
+  - #408218 [Sub Test] [Finalizado] "Teste do bug" | Dev: MARIA EDUARDA AMARAL MUNIZ
+  - #408284 [Sub Bug] [Finalizado] "Consulta de link nao retorna resultado" | Dev: artursilva frwk.com.br
