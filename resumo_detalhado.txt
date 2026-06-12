@@ -1,31 +1,31 @@
 === REPORT QUADRO DE AULAS - RESILIENCIA SISTEMICA ===
-Gerado em: 11/06/2026, 09:55:38
+Gerado em: 12/06/2026, 09:26:57
 
 --- PROGRESSO GERAL ---
-Total de itens: 359
-Concluidos (Finalizado): 260 (72%)
-Em progresso: 16
-A Fazer / Backlog: 72
+Total de itens: 361
+Concluidos (Finalizado): 278 (77%)
+Em progresso: 18
+A Fazer / Backlog: 54
 
 --- HORAS ---
 Planejado (Original Estimate): 1210.5h
-Ja realizado (Completed Work): 1089.5h
-Faltando (Remaining Work): 291.5h
-Projetado: 1381h
-Aumento de esforco: +170.5h (+14%)
+Ja realizado (Completed Work): 1131h
+Faltando (Remaining Work): 170h
+Projetado: 1301h
+Aumento de esforco: +90.5h (+7%)
 
 --- CAMADAS ---
-PRINCIPAL: 91% concluido
+PRINCIPAL: 93% concluido
   Stories/NFTs: 7 de 8 (88%)
-  Subtarefas: 63 de 69
-  Estimado: 274h | Realizado: 258.2h | Restante: 8.5h
+  Subtarefas: 64 de 69
+  Estimado: 274h | Realizado: 259.2h | Restante: 7.5h
   Projetado: 267h (-7.3hh / -3%%)
 
-REDUNDANTE: 86% concluido
+REDUNDANTE: 88% concluido
   Stories/NFTs: 6 de 10 (60%)
-  Subtarefas: 87 de 101
-  Estimado: 402h | Realizado: 471.4h | Restante: 12.5h
-  Projetado: 484h (+81.9hh / +20%%)
+  Subtarefas: 89 de 101
+  Estimado: 402h | Realizado: 471.9h | Restante: 11.5h
+  Projetado: 483h (+81.4hh / +20%%)
   Estouros ativos: #404993 artursilva frwk.com.br +3h
 
 COMPLEMENTARES: CANCELADO
@@ -34,39 +34,41 @@ COMPLEMENTARES: CANCELADO
   Estimado: 27h | Realizado: 75.5h | Restante: 0h
   Projetado: 76h (+48.5hh / +180%%)
 
-OBSERVABILIDADE: 48% concluido
-  Stories/NFTs: 0 de 16 (0%)
-  Subtarefas: 51 de 107
-  Estimado: 488.5h | Realizado: 193.5h | Restante: 270.5h
-  Projetado: 464h (-24.5hh / -5%%)
+OBSERVABILIDADE: 61% concluido
+  Stories/NFTs: 0 de 17 (0%)
+  Subtarefas: 65 de 107
+  Estimado: 488.5h | Realizado: 230.5h | Restante: 151h
+  Projetado: 382h (-107.0hh / -22%%)
 
 --- PREVISAO DE ENTREGA ---
 Entrega 1 (Resiliencia - Principal + Redundante + Complementares):
-  Projetado: 12/06/2026 | Base: 15/05/2026 | Pessimista: 29/05/2026
+  Projetado: 15/06/2026 | Base: 15/05/2026 | Pessimista: 29/05/2026
 Entrega 2 (Observabilidade):
-  Projetado: 02/07/2026 | Base: 29/05/2026 | Pessimista: 12/06/2026
+  Projetado: 24/06/2026 | Base: 29/05/2026 | Pessimista: 12/06/2026
 
 --- EFICIENCIA ---
-Itens estourados: 19.6% (36 de 184 subs com estimativa)
-Retrabalho (Sub Bugs): 8.2% - 15 Sub Bugs - 86.3h
-Dentro da estimativa: 80.4%
+Itens estourados: 18.4% (37 de 201 subs com estimativa)
+Retrabalho (Sub Bugs): 8.0% - 16 Sub Bugs - 87.3h
+Dentro da estimativa: 81.6%
 
 --- TIME ---
 DEVS:
-  Gabriel Pigatto: 182.7h realizadas / 198h estimadas (92%) - 37 subs finalizadas
+  Gabriel Pigatto: 185.7h realizadas / 212h estimadas (88%) - 39 subs finalizadas
   Artur Silva: 275.5h realizadas / 151.5h estimadas (182%) - 45 subs finalizadas
-  Carlos H. Almeida: 252.7h realizadas / 217h estimadas (116%) - 31 subs finalizadas
-  Maria E. Muniz: 71.5h realizadas / 43h estimadas (166%) - 18 subs finalizadas
-  Fabio Santos: 166.5h realizadas / 164h estimadas (102%) - 23 subs finalizadas
+  Carlos H. Almeida: 254.7h realizadas / 217h estimadas (117%) - 32 subs finalizadas
+  Maria E. Muniz: 74.5h realizadas / 43h estimadas (173%) - 18 subs finalizadas
+  Fabio Santos: 201h realizadas / 284h estimadas (71%) - 38 subs finalizadas
   Albert V. Foureaux: 6.5h realizadas / 6.5h estimadas (100%) - 1 subs finalizadas
 QA:
-  James G. Pereira: 28h realizadas / 39h estimadas (72%) - 5 subs finalizadas
+  James G. Pereira: 30h realizadas / 33h estimadas (91%) - 5 subs finalizadas
 
 --- RISCOS ---
-Refinamento pendente: 1 stories sem subtarefas
+Refinamento pendente: 2 stories sem subtarefas
   - #403986 "Estratégia de carga - Databricks vs. ULife Réplica" [REDUNDANTE]
+  - #408179 "Observabilidade de links de aulas digitais e gravações para " [OBSERVABILIDADE]
 Bug/Sustentacao: 7 Bugs - 7 SRs - 145.4h nao planejadas
-Expansao de escopo: 96 itens criados apos 01/05/2026
+Expansao de escopo: 98 itens criados apos 01/05/2026
   Princ +55h · Redund +138h · Obs +9h
-Sem tag: 1 itens sem camada identificada
+Sem tag: 2 itens sem camada identificada
+  - #408136 [Sub Bug] [Finalizado] "Filtros da lista de alunos com problema não estão funcionand" | Dev: Fabio Santos
   - #407538 [Sub Imp] [Em Desenvolvimento] "Ajustes de CR" | Dev: CARLOS HENRIQUE ALMEIDA OLIVEIRA
