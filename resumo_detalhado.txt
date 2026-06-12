@@ -1,18 +1,18 @@
 === REPORT QUADRO DE AULAS - RESILIENCIA SISTEMICA ===
-Gerado em: 12/06/2026, 18:12:07
+Gerado em: 12/06/2026, 19:47:01
 
 --- PROGRESSO GERAL ---
 Total de itens: 370
-Concluidos (Finalizado): 288 (78%)
-Em progresso: 18
-A Fazer / Backlog: 54
+Concluidos (Finalizado): 289 (78%)
+Em progresso: 10
+A Fazer / Backlog: 53
 
 --- HORAS ---
 Planejado (Original Estimate): 1210.5h
-Ja realizado (Completed Work): 1168h
-Faltando (Remaining Work): 155.5h
-Projetado: 1323.5h
-Aumento de esforco: +113h (+9%)
+Ja realizado (Completed Work): 1171h
+Faltando (Remaining Work): 147.5h
+Projetado: 1318.5h
+Aumento de esforco: +108h (+9%)
 
 --- CAMADAS ---
 PRINCIPAL: 94% concluido
@@ -36,9 +36,9 @@ COMPLEMENTARES: CANCELADO
 
 OBSERVABILIDADE: 63% concluido
   Stories/NFTs: 0 de 17 (0%)
-  Subtarefas: 72 de 115
-  Estimado: 488.5h | Realizado: 245h | Restante: 137h
-  Projetado: 382h (-106.5hh / -22%%)
+  Subtarefas: 73 de 115
+  Estimado: 488.5h | Realizado: 248h | Restante: 129h
+  Projetado: 377h (-111.5hh / -23%%)
 
 --- PREVISAO DE ENTREGA ---
 Entrega 1 (Resiliencia - Principal + Redundante + Complementares):
@@ -47,9 +47,9 @@ Entrega 2 (Observabilidade):
   Projetado: 23/06/2026 | Base: 29/05/2026 | Pessimista: 12/06/2026
 
 --- EFICIENCIA ---
-Itens estourados: 18.1% (37 de 204 subs com estimativa)
-Retrabalho (Sub Bugs): 11.8% - 24 Sub Bugs - 106.8h
-Dentro da estimativa: 81.9%
+Itens estourados: 18.0% (37 de 205 subs com estimativa)
+Retrabalho (Sub Bugs): 11.7% - 24 Sub Bugs - 106.8h
+Dentro da estimativa: 82.0%
 
 --- TIME ---
 DEVS:
@@ -57,7 +57,7 @@ DEVS:
   Artur Silva: 290.5h realizadas / 151.5h estimadas (192%) - 46 subs finalizadas
   Carlos H. Almeida: 254.7h realizadas / 217h estimadas (117%) - 32 subs finalizadas
   Maria E. Muniz: 83.5h realizadas / 49h estimadas (170%) - 19 subs finalizadas
-  Fabio Santos: 208.5h realizadas / 292h estimadas (71%) - 44 subs finalizadas
+  Fabio Santos: 211.5h realizadas / 300h estimadas (71%) - 45 subs finalizadas
   Albert V. Foureaux: 6.5h realizadas / 6.5h estimadas (100%) - 1 subs finalizadas
 QA:
   James G. Pereira: 30h realizadas / 33h estimadas (91%) - 5 subs finalizadas
