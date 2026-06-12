@@ -1,9 +1,9 @@
 === REPORT QUADRO DE AULAS - RESILIENCIA SISTEMICA ===
-Gerado em: 12/06/2026, 17:40:51
+Gerado em: 12/06/2026, 18:12:07
 
 --- PROGRESSO GERAL ---
 Total de itens: 370
-Concluidos (Finalizado): 287 (78%)
+Concluidos (Finalizado): 288 (78%)
 Em progresso: 18
 A Fazer / Backlog: 54
 
@@ -22,11 +22,11 @@ PRINCIPAL: 94% concluido
   Projetado: 267h (-7.3hh / -3%%)
 
 REDUNDANTE: 88% concluido
-  Stories/NFTs: 6 de 10 (60%)
-  Subtarefas: 89 de 101
-  Estimado: 402h | Realizado: 475.9h | Restante: 11.5h
-  Projetado: 487h (+85.4hh / +21%%)
-  Estouros ativos: #404993 artursilva frwk.com.br +5h
+  Stories/NFTs: 7 de 10 (70%)
+  Subtarefas: 91 de 104
+  Estimado: 405h | Realizado: 499.9h | Restante: 11.5h
+  Projetado: 511h (+106.4hh / +26%%)
+  Estouros ativos: #404993 artursilva frwk.com.br +5h, #407538 CARLOS HENRIQUE ALMEIDA OLIVEIRA +2h
 
 COMPLEMENTARES: CANCELADO
   Stories/NFTs: 1 de 1 (100%)
@@ -34,11 +34,11 @@ COMPLEMENTARES: CANCELADO
   Estimado: 27h | Realizado: 75.5h | Restante: 0h
   Projetado: 76h (+48.5hh / +180%%)
 
-OBSERVABILIDADE: 62% concluido
+OBSERVABILIDADE: 63% concluido
   Stories/NFTs: 0 de 17 (0%)
-  Subtarefas: 66 de 107
-  Estimado: 488.5h | Realizado: 237.5h | Restante: 137h
-  Projetado: 375h (-114.0hh / -23%%)
+  Subtarefas: 72 de 115
+  Estimado: 488.5h | Realizado: 245h | Restante: 137h
+  Projetado: 382h (-106.5hh / -22%%)
 
 --- PREVISAO DE ENTREGA ---
 Entrega 1 (Resiliencia - Principal + Redundante + Complementares):
@@ -68,16 +68,4 @@ Refinamento pendente: 2 stories sem subtarefas
   - #408179 "Observabilidade de links de aulas digitais e gravações para " [OBSERVABILIDADE]
 Bug/Sustentacao: 7 Bugs - 7 SRs - 151.4h nao planejadas
 Expansao de escopo: 107 itens criados apos 01/05/2026
-  Princ +55h · Redund +138h · Obs +9h
-Sem tag: 11 itens sem camada identificada
-  - #408136 [Sub Bug] [Finalizado] "Filtros da lista de alunos com problema não estão funcionand" | Dev: Fabio Santos
-  - #408205 [Sub Bug] [A Fazer] "Diagnostico está mostrando apenas as UCs com problemas" | Dev: Sem dev
-  - #408209 [Sub Bug] [A Fazer] "gráficos e listagem de diagnóstico exibindo apenas três tipo" | Dev: Sem dev
-  - #408247 [Sub Bug] [Finalizado] "Filtro por status não traz os valores corretos" | Dev: Fabio Santos
-  - #408249 [Sub Bug] [Finalizado] "Filtros avançados não funcionam corretamente" | Dev: Fabio Santos
-  - #408253 [Sub Bug] [Finalizado] "Filtro por nome ou RA não traz nenhum registro" | Dev: Fabio Santos
-  - #408254 [Sub Bug] [Finalizado] "Os dados não são recarregados após 15 minutos" | Dev: Fabio Santos
-  - #408255 [Sub Bug] [Finalizado] "A data do cabeçalho não atualizou depois de alterar a visão" | Dev: Fabio Santos
-  - #407538 [Sub Imp] [Em Desenvolvimento] "Ajustes de CR" | Dev: CARLOS HENRIQUE ALMEIDA OLIVEIRA
-  - #408218 [Sub Test] [Finalizado] "Teste do bug" | Dev: MARIA EDUARDA AMARAL MUNIZ
-  - #408284 [Sub Bug] [Finalizado] "Consulta de link nao retorna resultado" | Dev: artursilva frwk.com.br
+  Princ +55h · Redund +141h · Obs +9h
