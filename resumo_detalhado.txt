@@ -1,5 +1,5 @@
 === REPORT QUADRO DE AULAS - RESILIENCIA SISTEMICA ===
-Gerado em: 14/06/2026, 19:14:39
+Gerado em: 14/06/2026, 19:46:25
 
 --- PROGRESSO ---
 Total: 371 · Concluidos: 289 (78%) · Prog: 10 · A Fazer: 54
@@ -15,17 +15,18 @@ OBSERVABILIDADE: 63% · Subs 73/115 · Est 488.5h · Real 248h · Rem 129h
 
 --- TIME ---
   [DEV] Gabriel Pigatto: 191.2h/212h (90%) · 40 subs
-  [DEV] Artur Silva: 290.5h/151.5h (192%) · 46 subs | ⚠ 10 fix(s) sem card Git
-  [DEV] Carlos H. Almeida: 254.7h/217h (117%) · 32 subs | ⚠ 15 fix(s) sem card Git
+  [DEV] Artur Silva: 290.5h/151.5h (192%) · 46 subs | ⚠ 3 fix(s) sem card Git
+  [DEV] Carlos H. Almeida: 254.7h/217h (117%) · 32 subs | ⚠ 4 fix(s) sem card Git
   [DEV] Maria E. Muniz: 83.5h/49h (170%) · 19 subs
   [DEV] Fabio Santos: 211.5h/300h (71%) · 45 subs | ⚠ 10 fix(s) sem card Git
-  [DEV] Albert V. Foureaux: 6.5h/6.5h (100%) · 1 subs | ⚠ 15 fix(s) sem card Git
+  [DEV] Albert V. Foureaux: 6.5h/6.5h (100%) · 1 subs | ⚠ 13 fix(s) sem card Git
   [QA] James G. Pereira: 30h/33h (91%) · 5 subs
-  [TL] Ricardo Cardoso: 104.6h/113h (93%) · 71 subs | ⚠ 23 fix(s) sem card Git
+  [TL] Ricardo Cardoso: 104.6h/113h (93%) · 71 subs | ⚠ 5 fix(s) sem card Git
 
 --- RETRABALHO OCULTO (GIT) ---
-Fix commits sem [ID] ADO: 146 · Cobertura: 20%
+Fix commits sem [ID] ADO (excluindo merges e infra): 94
+Cobertura: 28%
 Repos: servico-quadro-aulas, frontend-quadro-aulas, servico-quadro-aulas-fallback, servico-aulas, servico-planejamento-monitoramento-integracao, frontend-monitor-integracao
 
 --- EFICIENCIA ---
-Estourados: 18.0% · SubBugs ADO: 24 · Oculto Git: 146 · Dentro: 82.0%
+Estourados: 18.0% · SubBugs ADO: 24 · Oculto Git: 94 · Dentro: 82.0%
