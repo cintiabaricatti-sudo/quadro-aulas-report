@@ -1,5 +1,5 @@
 === REPORT QUADRO DE AULAS - RESILIENCIA SISTEMICA ===
-Gerado em: 14/06/2026, 17:22:40
+Gerado em: 14/06/2026, 17:25:23
 
 --- PROGRESSO GERAL ---
 Total de itens: 371
@@ -48,19 +48,58 @@ Entrega 2 (Observabilidade):
 
 --- EFICIENCIA ---
 Itens estourados: 18.0% (37 de 205 subs com estimativa)
-Retrabalho (Sub Bugs): 11.7% - 24 Sub Bugs - 106.8h
+Retrabalho registrado (Sub Bugs ADO): 11.7% - 24 Sub Bugs - 106.8h
 Dentro da estimativa: 82.0%
+
+--- RETRABALHO OCULTO (GitLab) ---
+Total de fixes encontrados nos repos: 38
+Com card ADO vinculado: 8
+Sem card ADO (retrabalho oculto): 30
+Cobertura de rastreabilidade: 21%
+Fixes sem card:
+  [2026-04-28] Artur Santana | servico-quadro-aulas | fix: remove duplicata nos testes
+  [2026-04-28] Artur Santana | servico-quadro-aulas | fix: move arquivo para infraestructure/ e remove duplicacao
+  [2026-04-17] Ricardo Cardoso | servico-quadro-aulas | fix: rollback elastic config
+  [2026-04-17] Ricardo Cardoso | servico-quadro-aulas | fix: update Elasticsearch connection string retrieval in LogExtensions
+  [2026-04-16] Artur Santana | servico-quadro-aulas | fix: corrige teste que ainda esperava o fluxo consumir http
+  [2026-04-16] Artur Santana | servico-quadro-aulas | fix: ajuste nos testes relacionados a cache
+  [2026-04-14] Artur Santana | servico-quadro-aulas | fix: restaurar CancellationToken nos fluxos de aulas gravadas
+  [2026-04-08] Ricardo Cardoso | servico-quadro-aulas | fix(tests): adiciona DataAula válida em mock de AulaAoVivoResponse
+  [2026-04-05] Ricardo Cardoso | servico-quadro-aulas | fix: corrige invalidação de cache e implementa retry logic no worker
+  [2026-05-25] Artur Santana | frontend-quadro-aulas | fix: oculta conteudo de aulas gravadas em caso de fallback e exibe mensagem diferente
+  [2026-05-21] Artur Santana | frontend-quadro-aulas | fix: corrige teste sobrescrito no merge
+  [2026-05-21] Artur Santana | frontend-quadro-aulas | fix: corrige erro de teste sem closure
+  [2026-05-19] Ricardo Cardoso | frontend-quadro-aulas | fix: remove credenciais do vault do bundle de producao no vite.config
+  [2026-05-19] Ricardo Cardoso | frontend-quadro-aulas | fix: atualização de pacotes para correção de vulnerabilidades
+  [2026-05-19] Artur Santana | frontend-quadro-aulas | fix: exige o token de fallback apenas em caso da feature flag ativa
+  [2026-05-19] Artur Santana | frontend-quadro-aulas | fix: simplifica fluxo do token de fallback
+  [2026-05-19] Artur Santana | frontend-quadro-aulas | fix: ajusta fluxo de exibicao do banner de contingencia
+  [2026-05-19] Artur Santana | frontend-quadro-aulas | fix: isolar estado de contingência por origem
+  [2026-05-19] Artur Santana | frontend-quadro-aulas | fix: ajusta validacao de token no aulas-gravadas para incluir o fallback
+  [2026-05-19] Artur Santana | frontend-quadro-aulas | fix: adiciona tratativas para evitar token de fallback vazio antes da requisicao
+  [2026-05-19] Artur Santana | frontend-quadro-aulas | fix: limpa estado de contingencia apos recuperacao
+  [2026-05-19] Artur Santana | frontend-quadro-aulas | fix: ajusta estilizacao do componente
+  [2026-05-19] Artur Santana | frontend-quadro-aulas | fix: ajusta testes com mock incorreto
+  [2026-05-06] Carlos Henrique Almeida Oliveira | frontend-quadro-aulas | revert do manifesto e do conf
+  [2026-05-22] Artur Santana | servico-quadro-aulas-fallback | fix: corrige alteracao na rota de aulas gravadas
+  [2026-05-19] Artur Santana | servico-quadro-aulas-fallback | fix: ajusta configuracoes de logs no elastic search
+  [2026-05-18] Artur Santana | servico-quadro-aulas-fallback | fix: ajusta acesso aos valores do vault para os logs
+  [2026-05-14] Artur Santana | servico-quadro-aulas-fallback | fix: ajusta assinatura dos workers nos testes
+  [2026-05-14] Artur Santana da Silva | servico-quadro-aulas-fallback | fix: remove version do admission
+  [2026-05-13] Artur Santana da Silva | servico-quadro-aulas-fallback | fix: ordena cors apos auth
 
 --- TIME ---
 DEVS:
   Gabriel Pigatto: 191.2h realizadas / 212h estimadas (90%) - 40 subs finalizadas
-  Artur Silva: 290.5h realizadas / 151.5h estimadas (192%) - 46 subs finalizadas
-  Carlos H. Almeida: 254.7h realizadas / 217h estimadas (117%) - 32 subs finalizadas
+  Artur Silva: 290.5h realizadas / 151.5h estimadas (192%) - 46 subs finalizadas | ⚠ 23 fix(s) sem card Git
+  Carlos H. Almeida: 254.7h realizadas / 217h estimadas (117%) - 32 subs finalizadas | ⚠ 1 fix(s) sem card Git
   Maria E. Muniz: 83.5h realizadas / 49h estimadas (170%) - 19 subs finalizadas
   Fabio Santos: 211.5h realizadas / 300h estimadas (71%) - 45 subs finalizadas
   Albert V. Foureaux: 6.5h realizadas / 6.5h estimadas (100%) - 1 subs finalizadas
 QA:
   James G. Pereira: 30h realizadas / 33h estimadas (91%) - 5 subs finalizadas
+LIDERANCA TECNICA:
+  Ricardo Cardoso: 0h realizadas | ⚠ 6 fix(s) sem card Git
 
 --- RISCOS ---
 Refinamento pendente: 3 stories sem subtarefas
