@@ -1,5 +1,5 @@
 === REPORT QUADRO DE AULAS - RESILIENCIA SISTEMICA ===
-Gerado em: 14/06/2026, 17:25:23
+Gerado em: 14/06/2026, 17:47:36
 
 --- PROGRESSO GERAL ---
 Total de itens: 371
@@ -19,26 +19,26 @@ PRINCIPAL: 94% concluido
   Stories/NFTs: 7 de 8 (88%)
   Subtarefas: 65 de 69
   Estimado: 274h | Realizado: 259.7h | Restante: 7h
-  Projetado: 267h (-7.3hh / -3%%)
+  Projetado: 267h (-7.3h / -3%)
 
 REDUNDANTE: 88% concluido
   Stories/NFTs: 7 de 10 (70%)
   Subtarefas: 91 de 104
   Estimado: 405h | Realizado: 499.9h | Restante: 11.5h
-  Projetado: 511h (+106.4hh / +26%%)
+  Projetado: 511h (+106.4h / +26%)
   Estouros ativos: #404993 artursilva frwk.com.br +5h, #407538 CARLOS HENRIQUE ALMEIDA OLIVEIRA +2h
 
 COMPLEMENTARES: CANCELADO
   Stories/NFTs: 1 de 1 (100%)
   Subtarefas: 9 de 9
   Estimado: 27h | Realizado: 75.5h | Restante: 0h
-  Projetado: 76h (+48.5hh / +180%%)
+  Projetado: 76h (+48.5h / +180%)
 
 OBSERVABILIDADE: 63% concluido
   Stories/NFTs: 0 de 17 (0%)
   Subtarefas: 73 de 115
   Estimado: 488.5h | Realizado: 248h | Restante: 129h
-  Projetado: 377h (-111.5hh / -23%%)
+  Projetado: 377h (-111.5h / -23%)
 
 --- PREVISAO DE ENTREGA ---
 Entrega 1 (Resiliencia - Principal + Redundante + Complementares):
@@ -49,57 +49,21 @@ Entrega 2 (Observabilidade):
 --- EFICIENCIA ---
 Itens estourados: 18.0% (37 de 205 subs com estimativa)
 Retrabalho registrado (Sub Bugs ADO): 11.7% - 24 Sub Bugs - 106.8h
+Retrabalho oculto (Git sem card ADO): 127 correcoes - rastreabilidade 42%
 Dentro da estimativa: 82.0%
-
---- RETRABALHO OCULTO (GitLab) ---
-Total de fixes encontrados nos repos: 38
-Com card ADO vinculado: 8
-Sem card ADO (retrabalho oculto): 30
-Cobertura de rastreabilidade: 21%
-Fixes sem card:
-  [2026-04-28] Artur Santana | servico-quadro-aulas | fix: remove duplicata nos testes
-  [2026-04-28] Artur Santana | servico-quadro-aulas | fix: move arquivo para infraestructure/ e remove duplicacao
-  [2026-04-17] Ricardo Cardoso | servico-quadro-aulas | fix: rollback elastic config
-  [2026-04-17] Ricardo Cardoso | servico-quadro-aulas | fix: update Elasticsearch connection string retrieval in LogExtensions
-  [2026-04-16] Artur Santana | servico-quadro-aulas | fix: corrige teste que ainda esperava o fluxo consumir http
-  [2026-04-16] Artur Santana | servico-quadro-aulas | fix: ajuste nos testes relacionados a cache
-  [2026-04-14] Artur Santana | servico-quadro-aulas | fix: restaurar CancellationToken nos fluxos de aulas gravadas
-  [2026-04-08] Ricardo Cardoso | servico-quadro-aulas | fix(tests): adiciona DataAula válida em mock de AulaAoVivoResponse
-  [2026-04-05] Ricardo Cardoso | servico-quadro-aulas | fix: corrige invalidação de cache e implementa retry logic no worker
-  [2026-05-25] Artur Santana | frontend-quadro-aulas | fix: oculta conteudo de aulas gravadas em caso de fallback e exibe mensagem diferente
-  [2026-05-21] Artur Santana | frontend-quadro-aulas | fix: corrige teste sobrescrito no merge
-  [2026-05-21] Artur Santana | frontend-quadro-aulas | fix: corrige erro de teste sem closure
-  [2026-05-19] Ricardo Cardoso | frontend-quadro-aulas | fix: remove credenciais do vault do bundle de producao no vite.config
-  [2026-05-19] Ricardo Cardoso | frontend-quadro-aulas | fix: atualização de pacotes para correção de vulnerabilidades
-  [2026-05-19] Artur Santana | frontend-quadro-aulas | fix: exige o token de fallback apenas em caso da feature flag ativa
-  [2026-05-19] Artur Santana | frontend-quadro-aulas | fix: simplifica fluxo do token de fallback
-  [2026-05-19] Artur Santana | frontend-quadro-aulas | fix: ajusta fluxo de exibicao do banner de contingencia
-  [2026-05-19] Artur Santana | frontend-quadro-aulas | fix: isolar estado de contingência por origem
-  [2026-05-19] Artur Santana | frontend-quadro-aulas | fix: ajusta validacao de token no aulas-gravadas para incluir o fallback
-  [2026-05-19] Artur Santana | frontend-quadro-aulas | fix: adiciona tratativas para evitar token de fallback vazio antes da requisicao
-  [2026-05-19] Artur Santana | frontend-quadro-aulas | fix: limpa estado de contingencia apos recuperacao
-  [2026-05-19] Artur Santana | frontend-quadro-aulas | fix: ajusta estilizacao do componente
-  [2026-05-19] Artur Santana | frontend-quadro-aulas | fix: ajusta testes com mock incorreto
-  [2026-05-06] Carlos Henrique Almeida Oliveira | frontend-quadro-aulas | revert do manifesto e do conf
-  [2026-05-22] Artur Santana | servico-quadro-aulas-fallback | fix: corrige alteracao na rota de aulas gravadas
-  [2026-05-19] Artur Santana | servico-quadro-aulas-fallback | fix: ajusta configuracoes de logs no elastic search
-  [2026-05-18] Artur Santana | servico-quadro-aulas-fallback | fix: ajusta acesso aos valores do vault para os logs
-  [2026-05-14] Artur Santana | servico-quadro-aulas-fallback | fix: ajusta assinatura dos workers nos testes
-  [2026-05-14] Artur Santana da Silva | servico-quadro-aulas-fallback | fix: remove version do admission
-  [2026-05-13] Artur Santana da Silva | servico-quadro-aulas-fallback | fix: ordena cors apos auth
 
 --- TIME ---
 DEVS:
-  Gabriel Pigatto: 191.2h realizadas / 212h estimadas (90%) - 40 subs finalizadas
-  Artur Silva: 290.5h realizadas / 151.5h estimadas (192%) - 46 subs finalizadas | ⚠ 23 fix(s) sem card Git
-  Carlos H. Almeida: 254.7h realizadas / 217h estimadas (117%) - 32 subs finalizadas | ⚠ 1 fix(s) sem card Git
+  Gabriel Pigatto: 191.2h realizadas / 212h estimadas (90%) - 40 subs finalizadas | 3 fix(s) sem card Git
+  Artur Silva: 290.5h realizadas / 151.5h estimadas (192%) - 46 subs finalizadas
+  Carlos H. Almeida: 254.7h realizadas / 217h estimadas (117%) - 32 subs finalizadas
   Maria E. Muniz: 83.5h realizadas / 49h estimadas (170%) - 19 subs finalizadas
   Fabio Santos: 211.5h realizadas / 300h estimadas (71%) - 45 subs finalizadas
   Albert V. Foureaux: 6.5h realizadas / 6.5h estimadas (100%) - 1 subs finalizadas
 QA:
   James G. Pereira: 30h realizadas / 33h estimadas (91%) - 5 subs finalizadas
 LIDERANCA TECNICA:
-  Ricardo Cardoso: 0h realizadas | ⚠ 6 fix(s) sem card Git
+  Ricardo Cardoso: 0h realizadas / 0h estimadas (0%) - 0 subs finalizadas
 
 --- RISCOS ---
 Refinamento pendente: 3 stories sem subtarefas
