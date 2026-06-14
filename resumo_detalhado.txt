@@ -1,75 +1,52 @@
 === REPORT QUADRO DE AULAS - RESILIENCIA SISTEMICA ===
-Gerado em: 14/06/2026, 17:47:36
+Gerado em: 14/06/2026, 18:12:08
 
 --- PROGRESSO GERAL ---
-Total de itens: 371
-Concluidos (Finalizado): 289 (78%)
-Em progresso: 10
-A Fazer / Backlog: 54
+Total: 371 · Concluidos: 289 (78%) · Prog: 10 · A Fazer: 54
 
 --- HORAS ---
-Planejado (Original Estimate): 1210.5h
-Ja realizado (Completed Work): 1171h
-Faltando (Remaining Work): 147.5h
-Projetado: 1318.5h
-Aumento de esforco: +108h (+9%)
+Planejado: 1210.5h · Gasto: 1171h · Falta: 147.5h · Proj: 1318.5h
+Aumento: +108h (+9%)
 
 --- CAMADAS ---
 PRINCIPAL: 94% concluido
-  Stories/NFTs: 7 de 8 (88%)
-  Subtarefas: 65 de 69
-  Estimado: 274h | Realizado: 259.7h | Restante: 7h
-  Projetado: 267h (-7.3h / -3%)
+  Subs: 65/69 · Est: 274h · Real: 259.7h · Rem: 7h · Proj: 267h (-7.3h/-3%)
 
 REDUNDANTE: 88% concluido
-  Stories/NFTs: 7 de 10 (70%)
-  Subtarefas: 91 de 104
-  Estimado: 405h | Realizado: 499.9h | Restante: 11.5h
-  Projetado: 511h (+106.4h / +26%)
-  Estouros ativos: #404993 artursilva frwk.com.br +5h, #407538 CARLOS HENRIQUE ALMEIDA OLIVEIRA +2h
+  Subs: 91/104 · Est: 405h · Real: 499.9h · Rem: 11.5h · Proj: 511h (+106.4h/+26%)
+  Estouros: #404993 artursilva frwk.com.br +5h, #407538 CARLOS HENRIQUE ALMEIDA OLIVEIRA +2h
 
 COMPLEMENTARES: CANCELADO
-  Stories/NFTs: 1 de 1 (100%)
-  Subtarefas: 9 de 9
-  Estimado: 27h | Realizado: 75.5h | Restante: 0h
-  Projetado: 76h (+48.5h / +180%)
+  Subs: 9/9 · Est: 27h · Real: 75.5h · Rem: 0h · Proj: 76h (+48.5h/+180%)
 
 OBSERVABILIDADE: 63% concluido
-  Stories/NFTs: 0 de 17 (0%)
-  Subtarefas: 73 de 115
-  Estimado: 488.5h | Realizado: 248h | Restante: 129h
-  Projetado: 377h (-111.5h / -23%)
+  Subs: 73/115 · Est: 488.5h · Real: 248h · Rem: 129h · Proj: 377h (-111.5h/-23%)
 
---- PREVISAO DE ENTREGA ---
-Entrega 1 (Resiliencia - Principal + Redundante + Complementares):
-  Projetado: 15/06/2026 | Base: 15/05/2026 | Pessimista: 29/05/2026
-Entrega 2 (Observabilidade):
-  Projetado: 23/06/2026 | Base: 29/05/2026 | Pessimista: 12/06/2026
+--- PREVISAO ---
+E1: Proj 15/06/2026 | Base 15/05/2026 | Pess 29/05/2026
+E2: Proj 23/06/2026 | Base 29/05/2026 | Pess 12/06/2026
 
 --- EFICIENCIA ---
-Itens estourados: 18.0% (37 de 205 subs com estimativa)
-Retrabalho registrado (Sub Bugs ADO): 11.7% - 24 Sub Bugs - 106.8h
-Retrabalho oculto (Git sem card ADO): 127 correcoes - rastreabilidade 42%
-Dentro da estimativa: 82.0%
+Estourados: 18.0% · Retrabalho ADO: 11.7% (24 Sub Bugs · 106.8h) · Dentro: 82.0%
+Retrabalho oculto Git: 127 correcoes sem card · rastreabilidade 42%
 
 --- TIME ---
 DEVS:
-  Gabriel Pigatto: 191.2h realizadas / 212h estimadas (90%) - 40 subs finalizadas | 3 fix(s) sem card Git
-  Artur Silva: 290.5h realizadas / 151.5h estimadas (192%) - 46 subs finalizadas
-  Carlos H. Almeida: 254.7h realizadas / 217h estimadas (117%) - 32 subs finalizadas
-  Maria E. Muniz: 83.5h realizadas / 49h estimadas (170%) - 19 subs finalizadas
-  Fabio Santos: 211.5h realizadas / 300h estimadas (71%) - 45 subs finalizadas
-  Albert V. Foureaux: 6.5h realizadas / 6.5h estimadas (100%) - 1 subs finalizadas
+  [DEV] Gabriel Pigatto: 191.2h / 212h (90%) · 40 subs finalizadas | 3 fix(s) sem card Git
+  [DEV] Artur Silva: 290.5h / 151.5h (192%) · 46 subs finalizadas | 3 fix(s) sem card Git
+  [DEV] Carlos H. Almeida: 254.7h / 217h (117%) · 32 subs finalizadas | 16 fix(s) sem card Git
+  [DEV] Maria E. Muniz: 83.5h / 49h (170%) · 19 subs finalizadas
+  [DEV] Fabio Santos: 211.5h / 300h (71%) · 45 subs finalizadas
+  [DEV] Albert V. Foureaux: 6.5h / 6.5h (100%) · 1 subs finalizadas
 QA:
-  James G. Pereira: 30h realizadas / 33h estimadas (91%) - 5 subs finalizadas
-LIDERANCA TECNICA:
-  Ricardo Cardoso: 0h realizadas / 0h estimadas (0%) - 0 subs finalizadas
+  [QA ] James G. Pereira: 30h / 33h (91%) · 5 subs finalizadas
+TL:
+  [TL ] Ricardo Cardoso: 104.6h / 113h (93%) · 71 subs finalizadas | 8 fix(s) sem card Git
 
 --- RISCOS ---
 Refinamento pendente: 3 stories sem subtarefas
   - #403986 "Adicionar origem Databricks para o job S3 do fallback" [REDUNDANTE]
   - #405936 "Exibição de mensagem correta de indisponibilidade se o worke" []
   - #408179 "Observabilidade de links de aulas digitais e gravações para " [OBSERVABILIDADE]
-Bug/Sustentacao: 7 Bugs - 7 SRs - 151.4h nao planejadas
-Expansao de escopo: 108 itens criados apos 01/05/2026
-  Princ +55h · Redund +141h · Obs +9h
+Bug/SUS: 7 Bugs · 7 SRs · 151.4h
+Expansao: 108 itens pós 01/05 · Princ +55h · Redund +141h · Obs +9h
