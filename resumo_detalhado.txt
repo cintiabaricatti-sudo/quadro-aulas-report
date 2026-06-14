@@ -1,11 +1,11 @@
 === REPORT QUADRO DE AULAS - RESILIENCIA SISTEMICA ===
-Gerado em: 13/06/2026, 10:46:19
+Gerado em: 14/06/2026, 11:30:30
 
 --- PROGRESSO GERAL ---
-Total de itens: 370
+Total de itens: 371
 Concluidos (Finalizado): 289 (78%)
 Em progresso: 10
-A Fazer / Backlog: 53
+A Fazer / Backlog: 54
 
 --- HORAS ---
 Planejado (Original Estimate): 1210.5h
@@ -63,9 +63,10 @@ QA:
   James G. Pereira: 30h realizadas / 33h estimadas (91%) - 5 subs finalizadas
 
 --- RISCOS ---
-Refinamento pendente: 2 stories sem subtarefas
-  - #403986 "Estratégia de carga - Databricks vs. ULife Réplica" [REDUNDANTE]
+Refinamento pendente: 3 stories sem subtarefas
+  - #403986 "Adicionar origem Databricks para o job S3 do fallback" [REDUNDANTE]
+  - #405936 "Exibição de mensagem correta de indisponibilidade se o worke" []
   - #408179 "Observabilidade de links de aulas digitais e gravações para " [OBSERVABILIDADE]
 Bug/Sustentacao: 7 Bugs - 7 SRs - 151.4h nao planejadas
-Expansao de escopo: 107 itens criados apos 01/05/2026
+Expansao de escopo: 108 itens criados apos 01/05/2026
   Princ +55h · Redund +141h · Obs +9h
