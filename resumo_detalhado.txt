@@ -1,5 +1,5 @@
 === REPORT QUADRO DE AULAS - RESILIENCIA SISTEMICA ===
-Gerado em: 14/06/2026, 20:22:06
+Gerado em: 14/06/2026, 20:41:24
 
 --- PROGRESSO ---
 Total: 380 · Concluidos: 290 (76%) · Prog: 11 · A Fazer: 61
@@ -25,7 +25,7 @@ OBSERVABILIDADE: 63% · Subs 73/115 · Est 488.5h · Real 248h · Rem 129h
 
 --- RETRABALHO OCULTO GIT ---
 Fixes sem [ID] ADO (time, sem merges/infra, sem TL): 30
-Cobertura ADO: 28%
+Cobertura ADO do time: 50%
 Repos: servico-quadro-aulas, frontend-quadro-aulas, servico-quadro-aulas-fallback, servico-aulas, servico-planejamento-monitoramento-integracao, frontend-monitor-integracao
 
 --- EFICIENCIA ---
