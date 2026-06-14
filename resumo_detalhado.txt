@@ -1,18 +1,15 @@
 === REPORT QUADRO DE AULAS - RESILIENCIA SISTEMICA ===
-Gerado em: 14/06/2026, 19:03:35
+Gerado em: 14/06/2026, 19:14:39
 
---- PROGRESSO GERAL ---
-Total de itens: 371
-Concluidos: 289 (78%) · Em progresso: 10 · A Fazer: 54
+--- PROGRESSO ---
+Total: 371 · Concluidos: 289 (78%) · Prog: 10 · A Fazer: 54
 
 --- HORAS ---
 Planejado: 1210.5h · Gasto: 1171h · Falta: 147.5h · Projetado: 1318.5h
-Aumento: +108h (+9%)
 
 --- CAMADAS ---
 PRINCIPAL: 94% · Subs 65/69 · Est 274h · Real 259.7h · Rem 7h
 REDUNDANTE: 88% · Subs 91/104 · Est 405h · Real 499.9h · Rem 11.5h
-  Estouros: #404993 artursilva frwk.com.br +5h, #407538 CARLOS HENRIQUE ALMEIDA OLIVEIRA +2h
 COMPLEMENTARES: CANCELADO · Subs 9/9 · Est 27h · Real 75.5h · Rem 0h
 OBSERVABILIDADE: 63% · Subs 73/115 · Est 488.5h · Real 248h · Rem 129h
 
@@ -28,12 +25,7 @@ OBSERVABILIDADE: 63% · Subs 73/115 · Est 488.5h · Real 248h · Rem 129h
 
 --- RETRABALHO OCULTO (GIT) ---
 Fix commits sem [ID] ADO: 146 · Cobertura: 20%
-Repos mapeados: servico-quadro-aulas, frontend-quadro-aulas, servico-quadro-aulas-fallback, servico-aulas, servico-planejamento-monitoramento-integracao, frontend-monitor-integracao
+Repos: servico-quadro-aulas, frontend-quadro-aulas, servico-quadro-aulas-fallback, servico-aulas, servico-planejamento-monitoramento-integracao, frontend-monitor-integracao
 
 --- EFICIENCIA ---
-Estourados: 18.0% · Retrabalho ADO: 24 Sub Bugs · Oculto Git: 146 · Dentro: 82.0%
-
---- RISCOS ---
-Bug/SUS: 7 Bugs · 7 SRs · 151.4h
-Expansao: 108 itens criados apos 01/05/2026 (Princ +55h · Redund +141h · Obs +9h)
-Refinamento pendente: 3 stories sem subtarefas (Redundante · Sem tag · Observabilidade)
+Estourados: 18.0% · SubBugs ADO: 24 · Oculto Git: 146 · Dentro: 82.0%
