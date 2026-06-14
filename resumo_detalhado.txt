@@ -1,52 +1,39 @@
 === REPORT QUADRO DE AULAS - RESILIENCIA SISTEMICA ===
-Gerado em: 14/06/2026, 18:12:08
+Gerado em: 14/06/2026, 18:37:25
 
 --- PROGRESSO GERAL ---
-Total: 371 · Concluidos: 289 (78%) · Prog: 10 · A Fazer: 54
+Total de itens: 371
+Concluidos: 289 (78%) · Em progresso: 10 · A Fazer: 54
 
 --- HORAS ---
-Planejado: 1210.5h · Gasto: 1171h · Falta: 147.5h · Proj: 1318.5h
+Planejado: 1210.5h · Gasto: 1171h · Falta: 147.5h · Projetado: 1318.5h
 Aumento: +108h (+9%)
 
 --- CAMADAS ---
-PRINCIPAL: 94% concluido
-  Subs: 65/69 · Est: 274h · Real: 259.7h · Rem: 7h · Proj: 267h (-7.3h/-3%)
-
-REDUNDANTE: 88% concluido
-  Subs: 91/104 · Est: 405h · Real: 499.9h · Rem: 11.5h · Proj: 511h (+106.4h/+26%)
+PRINCIPAL: 94% · Subs 65/69 · Est 274h · Real 259.7h · Rem 7h
+REDUNDANTE: 88% · Subs 91/104 · Est 405h · Real 499.9h · Rem 11.5h
   Estouros: #404993 artursilva frwk.com.br +5h, #407538 CARLOS HENRIQUE ALMEIDA OLIVEIRA +2h
-
-COMPLEMENTARES: CANCELADO
-  Subs: 9/9 · Est: 27h · Real: 75.5h · Rem: 0h · Proj: 76h (+48.5h/+180%)
-
-OBSERVABILIDADE: 63% concluido
-  Subs: 73/115 · Est: 488.5h · Real: 248h · Rem: 129h · Proj: 377h (-111.5h/-23%)
-
---- PREVISAO ---
-E1: Proj 15/06/2026 | Base 15/05/2026 | Pess 29/05/2026
-E2: Proj 23/06/2026 | Base 29/05/2026 | Pess 12/06/2026
-
---- EFICIENCIA ---
-Estourados: 18.0% · Retrabalho ADO: 11.7% (24 Sub Bugs · 106.8h) · Dentro: 82.0%
-Retrabalho oculto Git: 127 correcoes sem card · rastreabilidade 42%
+COMPLEMENTARES: CANCELADO · Subs 9/9 · Est 27h · Real 75.5h · Rem 0h
+OBSERVABILIDADE: 63% · Subs 73/115 · Est 488.5h · Real 248h · Rem 129h
 
 --- TIME ---
-DEVS:
-  [DEV] Gabriel Pigatto: 191.2h / 212h (90%) · 40 subs finalizadas | 3 fix(s) sem card Git
-  [DEV] Artur Silva: 290.5h / 151.5h (192%) · 46 subs finalizadas | 3 fix(s) sem card Git
-  [DEV] Carlos H. Almeida: 254.7h / 217h (117%) · 32 subs finalizadas | 16 fix(s) sem card Git
-  [DEV] Maria E. Muniz: 83.5h / 49h (170%) · 19 subs finalizadas
-  [DEV] Fabio Santos: 211.5h / 300h (71%) · 45 subs finalizadas
-  [DEV] Albert V. Foureaux: 6.5h / 6.5h (100%) · 1 subs finalizadas
-QA:
-  [QA ] James G. Pereira: 30h / 33h (91%) · 5 subs finalizadas
-TL:
-  [TL ] Ricardo Cardoso: 104.6h / 113h (93%) · 71 subs finalizadas | 8 fix(s) sem card Git
+  [DEV] Gabriel Pigatto: 191.2h/212h (90%) · 40 subs
+  [DEV] Artur Silva: 290.5h/151.5h (192%) · 46 subs | ⚠ 10 fix(s) sem card Git
+  [DEV] Carlos H. Almeida: 254.7h/217h (117%) · 32 subs | ⚠ 15 fix(s) sem card Git
+  [DEV] Maria E. Muniz: 83.5h/49h (170%) · 19 subs
+  [DEV] Fabio Santos: 211.5h/300h (71%) · 45 subs | ⚠ 10 fix(s) sem card Git
+  [DEV] Albert V. Foureaux: 6.5h/6.5h (100%) · 1 subs | ⚠ 15 fix(s) sem card Git
+  [QA] James G. Pereira: 30h/33h (91%) · 5 subs
+  [TL] Ricardo Cardoso: 104.6h/113h (93%) · 71 subs | ⚠ 23 fix(s) sem card Git
+
+--- RETRABALHO OCULTO (GIT) ---
+Fix commits sem [ID] ADO: 146 · Cobertura: 20%
+Repos mapeados: servico-quadro-aulas, frontend-quadro-aulas, servico-quadro-aulas-fallback, servico-aulas, servico-planejamento-monitoramento-integracao, frontend-monitor-integracao
+
+--- EFICIENCIA ---
+Estourados: 18.0% · Retrabalho ADO: 24 Sub Bugs · Oculto Git: 146 · Dentro: 82.0%
 
 --- RISCOS ---
-Refinamento pendente: 3 stories sem subtarefas
-  - #403986 "Adicionar origem Databricks para o job S3 do fallback" [REDUNDANTE]
-  - #405936 "Exibição de mensagem correta de indisponibilidade se o worke" []
-  - #408179 "Observabilidade de links de aulas digitais e gravações para " [OBSERVABILIDADE]
 Bug/SUS: 7 Bugs · 7 SRs · 151.4h
-Expansao: 108 itens pós 01/05 · Princ +55h · Redund +141h · Obs +9h
+Expansao: 108 itens criados apos 01/05/2026 (Princ +55h · Redund +141h · Obs +9h)
+Refinamento pendente: 3 stories sem subtarefas (Redundante · Sem tag · Observabilidade)
