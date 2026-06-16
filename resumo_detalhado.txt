@@ -1,11 +1,11 @@
 === REPORT QUADRO DE AULAS - RESILIENCIA SISTEMICA ===
-Gerado em: 15/06/2026, 19:52:00
+Gerado em: 16/06/2026, 08:37:58
 
 --- PROGRESSO ---
-Total: 385 · Concluidos: 306 (79%) · Prog: 11 · A Fazer: 48
+Total: 386 · Concluidos: 306 (79%) · Prog: 12 · A Fazer: 48
 
 --- HORAS ---
-Planejado: 1241h · Gasto: 1202.2h · Falta: 148.5h · Projetado: 1350.7h
+Planejado: 1241h · Gasto: 1206.2h · Falta: 148.5h · Projetado: 1354.7h
 
 --- CAMADAS ---
 PRINCIPAL: 94% · Subs 65/69 · Est 274h · Real 263.7h · Rem 7h
@@ -16,7 +16,7 @@ OBSERVABILIDADE: 72% · Subs 86/119 · Est 495.5h · Real 254.8h · Rem 111h
 --- TIME ---
   [DEV] Gabriel Pigatto: 199.2h/214h (93%) · 40 subs
   [DEV] Artur Silva: 297.5h/151.5h (196%) · 46 subs | ⚠ 3 fix(s) sem card Git
-  [DEV] Carlos H. Almeida: 262.2h/217h (121%) · 33 subs | ⚠ 4 fix(s) sem card Git
+  [DEV] Carlos H. Almeida: 266.2h/217h (123%) · 33 subs | ⚠ 4 fix(s) sem card Git
   [DEV] Maria E. Muniz: 85.5h/49h (174%) · 19 subs
   [DEV] Fabio Santos: 212.3h/307h (69%) · 51 subs | ⚠ 10 fix(s) sem card Git
   [DEV] Albert V. Foureaux: 6.5h/6.5h (100%) · 1 subs | ⚠ 12 fix(s) sem card Git
@@ -29,4 +29,4 @@ Cobertura ADO do time: 49%
 Repos: servico-quadro-aulas, frontend-quadro-aulas, servico-quadro-aulas-fallback, servico-aulas, servico-planejamento-monitoramento-integracao, frontend-monitor-integracao
 
 --- EFICIENCIA ---
-Estourados: 17.6% · SubBugs ADO: 25 · Oculto Git: 29 · Dentro: 82.4%
+Estourados: 17.6% · SubBugs ADO: 26 · Oculto Git: 29 · Dentro: 82.4%

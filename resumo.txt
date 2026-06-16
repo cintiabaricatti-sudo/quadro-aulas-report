@@ -1,6 +1,6 @@
-Progresso Geral: 79% concluido · 306 de 385 itens
+Progresso Geral: 79% concluido · 306 de 386 itens
 Camadas: Principal 94% · Redundante 84% · Complementares cancelada · Observabilidade 72%
-Prazo E1: Projetado 17/06/2026 · E2: Projetado 23/06/2026
-Atencao: 1 stories sem refinamento · 7 Bugs · 122 itens expansao
-Sem tag: 2 itens
+Prazo E1: Projetado 18/06/2026 · E2: Projetado 24/06/2026
+Atencao: 1 stories sem refinamento · 7 Bugs · 123 itens expansao
+Sem tag: 3 itens
 Retrabalho oculto Git (time): 29 fix(s) sem card · cobertura do time 49%
