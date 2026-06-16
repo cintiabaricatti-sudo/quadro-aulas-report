@@ -1,11 +1,11 @@
 === REPORT QUADRO DE AULAS - RESILIENCIA SISTEMICA ===
-Gerado em: 16/06/2026, 08:37:58
+Gerado em: 16/06/2026, 09:58:56
 
 --- PROGRESSO ---
 Total: 386 · Concluidos: 306 (79%) · Prog: 12 · A Fazer: 48
 
 --- HORAS ---
-Planejado: 1241h · Gasto: 1206.2h · Falta: 148.5h · Projetado: 1354.7h
+Planejado: 1241h · Gasto: 1213.2h · Falta: 148.5h · Projetado: 1361.7h
 
 --- CAMADAS ---
 PRINCIPAL: 94% · Subs 65/69 · Est 274h · Real 263.7h · Rem 7h
@@ -15,7 +15,7 @@ OBSERVABILIDADE: 72% · Subs 86/119 · Est 495.5h · Real 254.8h · Rem 111h
 
 --- TIME ---
   [DEV] Gabriel Pigatto: 199.2h/214h (93%) · 40 subs
-  [DEV] Artur Silva: 297.5h/151.5h (196%) · 46 subs | ⚠ 3 fix(s) sem card Git
+  [DEV] Artur Silva: 304.5h/151.5h (201%) · 46 subs | ⚠ 3 fix(s) sem card Git
   [DEV] Carlos H. Almeida: 266.2h/217h (123%) · 33 subs | ⚠ 4 fix(s) sem card Git
   [DEV] Maria E. Muniz: 85.5h/49h (174%) · 19 subs
   [DEV] Fabio Santos: 212.3h/307h (69%) · 51 subs | ⚠ 10 fix(s) sem card Git
