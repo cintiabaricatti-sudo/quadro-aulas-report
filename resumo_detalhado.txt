@@ -1,24 +1,24 @@
 === REPORT QUADRO DE AULAS - RESILIENCIA SISTEMICA ===
-Gerado em: 16/06/2026, 19:51:40
+Gerado em: 17/06/2026, 08:41:27
 
 --- PROGRESSO ---
-Total: 387 · Concluidos: 307 (79%) · Prog: 11 · A Fazer: 49
+Total: 389 · Concluidos: 308 (79%) · Prog: 11 · A Fazer: 50
 
 --- HORAS ---
-Planejado: 1243h · Gasto: 1215.2h · Falta: 150.5h · Projetado: 1365.7h
+Planejado: 1243h · Gasto: 1215.7h · Falta: 148.5h · Projetado: 1364.2h
 
 --- CAMADAS ---
 PRINCIPAL: 94% · Subs 65/69 · Est 274h · Real 263.7h · Rem 7h
 REDUNDANTE: 84% · Subs 95/113 · Est 428.5h · Real 520.3h · Rem 30.5h
 COMPLEMENTARES: CANCELADO · Subs 9/9 · Est 27h · Real 75.5h · Rem 0h
-OBSERVABILIDADE: 72% · Subs 86/120 · Est 497.5h · Real 254.8h · Rem 113h
+OBSERVABILIDADE: 73% · Subs 87/120 · Est 497.5h · Real 255.3h · Rem 111h
 
 --- TIME ---
   [DEV] Gabriel Pigatto: 199.2h/214h (93%) · 40 subs
   [DEV] Artur Silva: 304.5h/151.5h (201%) · 46 subs | ⚠ 3 fix(s) sem card Git
   [DEV] Carlos H. Almeida: 268.2h/217h (124%) · 34 subs | ⚠ 4 fix(s) sem card Git
   [DEV] Maria E. Muniz: 85.5h/49h (174%) · 19 subs
-  [DEV] Fabio Santos: 212.3h/309h (69%) · 51 subs | ⚠ 10 fix(s) sem card Git
+  [DEV] Fabio Santos: 212.8h/309h (69%) · 52 subs | ⚠ 10 fix(s) sem card Git
   [DEV] Albert V. Foureaux: 6.5h/6.5h (100%) · 1 subs | ⚠ 7 fix(s) sem card Git
   [QA] James G. Pereira: 30h/33h (91%) · 5 subs
   [TL] Ricardo Cardoso: 110.3h/131h (84%) · 80 subs
