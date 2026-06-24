@@ -1,27 +1,27 @@
 === REPORT QUADRO DE AULAS - RESILIENCIA SISTEMICA ===
-Gerado em: 24/06/2026, 14:33:08
+Gerado em: 24/06/2026, 16:56:24
 
 --- PROGRESSO ---
-Total: 394 · Concluidos: 325 (82%) · Prog: 7 · A Fazer: 42
+Total: 394 · Concluidos: 327 (83%) · Prog: 7 · A Fazer: 41
 
 --- HORAS ---
 Planejado: 1251h · Gasto: 1268.4h · Falta: 139.5h · Projetado: 1407.9h
 
 --- CAMADAS ---
 PRINCIPAL: 99% · Subs 68/69 · Est 274h · Real 268.8h · Rem 1h
-REDUNDANTE: 88% · Subs 98/111 · Est 427.5h · Real 526.8h · Rem 27.5h
+REDUNDANTE: 89% · Subs 99/111 · Est 427.5h · Real 526.8h · Rem 27.5h
 COMPLEMENTARES: CANCELADO · Subs 9/9 · Est 27h · Real 75.5h · Rem 0h
 OBSERVABILIDADE: 73% · Subs 88/120 · Est 497.5h · Real 255.8h · Rem 111h
 
 --- TIME ---
   [DEV] Gabriel Pigatto: 224.2h/214h (105%) · 43 subs | ⚠ 1 fix(s) sem card Git
-  [DEV] Artur Silva: 314.5h/151.5h (208%) · 48 subs | ⚠ 3 fix(s) sem card Git
+  [DEV] Artur Silva: 314.5h/157.5h (200%) · 48 subs | ⚠ 3 fix(s) sem card Git
   [DEV] Carlos H. Almeida: 268.2h/217h (124%) · 34 subs | ⚠ 6 fix(s) sem card Git
   [DEV] Maria E. Muniz: 91.5h/53h (173%) · 21 subs
   [DEV] Fabio Santos: 220.8h/309h (71%) · 54 subs | ⚠ 19 fix(s) sem card Git
   [DEV] Albert V. Foureaux: 6.5h/6.5h (100%) · 1 subs | ⚠ 7 fix(s) sem card Git
   [QA] James G. Pereira: 30h/33h (91%) · 5 subs
-  [TL] Ricardo Cardoso: 124h/144h (86%) · 87 subs
+  [TL] Ricardo Cardoso: 124h/144h (86%) · 88 subs
 
 --- RETRABALHO OCULTO GIT ---
 Fixes sem [ID] ADO (time, sem merges/infra, sem TL): 36
