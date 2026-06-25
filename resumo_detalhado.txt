@@ -1,5 +1,5 @@
 === REPORT QUADRO DE AULAS - RESILIENCIA SISTEMICA ===
-Gerado em: 25/06/2026, 17:39:07
+Gerado em: 25/06/2026, 17:52:29
 
 --- PROGRESSO ---
 Total: 391 · Concluidos: 329 (84%) · Prog: 7 · A Fazer: 37
@@ -8,10 +8,10 @@ Total: 391 · Concluidos: 329 (84%) · Prog: 7 · A Fazer: 37
 Planejado: 1249h · Gasto: 1268.4h · Falta: 136.5h · Projetado: 1404.9h
 
 --- CAMADAS ---
-PRINCIPAL: 99% · Subs 68/69 · Est 274h · Real 268.8h · Rem 1h
-REDUNDANTE: 92% · Subs 100/109 · Est 425.5h · Real 526.8h · Rem 24.5h
+PRINCIPAL: 99% · Subs 69/70 · Est 274h · Real 279.8h · Rem 1h
+REDUNDANTE: 92% · Subs 105/114 · Est 432.5h · Real 560.3h · Rem 24.5h
 COMPLEMENTARES: CANCELADO · Subs 9/9 · Est 27h · Real 75.5h · Rem 0h
-OBSERVABILIDADE: 73% · Subs 88/120 · Est 497.5h · Real 255.8h · Rem 111h
+OBSERVABILIDADE: 74% · Subs 92/124 · Est 499.5h · Real 264.8h · Rem 111h
 
 --- TIME ---
   [DEV] Gabriel Pigatto: 224.2h/214h (105%) · 43 subs | ⚠ 1 fix(s) sem card Git
@@ -32,15 +32,5 @@ Repos: servico-quadro-aulas, frontend-quadro-aulas, servico-quadro-aulas-fallbac
 Estourados: 17.4% · SubBugs ADO: 26 · Oculto Git: 36 · Dentro: 82.6%
 
 --- SEM TAG ---
-Total sem tag: 11 itens
-  #408977 | Sub Bug | Finalizado | log do Elastic não  aparecendo para os logs de workers e jobs | CARLOS HENRIQUE ALMEIDA OLIVEIRA
-  #410974 | Sub Imp | Finalizado | Analisar divergência de tempo para exibição do link de aulas ao vivo | MARIA EDUARDA AMARAL MUNIZ
-  #410976 | Sub Imp | Finalizado | Ajuste no agrupamento dos horários | gabrielpigatto frwk.com.br
+Total sem tag: 1 itens
   #408547 | Non Functional Task | Product Backlog | Melhoria da qualidade técnica do HeatMap com base nos apontamentos do SonarQube | Fabio Santos
-  #408628 | Sub Bug | Finalizado | ReuniaoId retornando com valor 0 | artursilva frwk.com.br
-  #409408 | Sub Imp | Finalizado | [backend] Alterações das queries e retorno dos endpoints | Fabio Santos
-  #409409 | Sub Imp | Finalizado | [frontend] Ajuste das visualizações de tabelas e graficos | Fabio Santos
-  #409440 | Sub Imp | Finalizado | [backend] Melhoria de desempenho e testes em ambiente | gabrielpigatto frwk.com.br
-  #409590 | Sub Requirement | Finalizado | Call - Apoio Técnico | RICARDO FERNANDES CARDOSO
-  #409839 | Sub Imp | Finalizado | Testes do worker de contingência | RICARDO FERNANDES CARDOSO
-  #410249 | Sub Requirement | Finalizado | Call - Alinhamento sobre aulas gravadas no heatmap | RICARDO FERNANDES CARDOSO
