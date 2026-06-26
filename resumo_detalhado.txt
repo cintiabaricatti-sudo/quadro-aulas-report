@@ -1,21 +1,21 @@
 === REPORT QUADRO DE AULAS - RESILIENCIA SISTEMICA ===
-Gerado em: 26/06/2026, 09:30:50
+Gerado em: 26/06/2026, 18:45:25
 
 --- PROGRESSO ---
-Total: 392 · Concluidos: 331 (84%) · Prog: 7 · A Fazer: 36
+Total: 392 · Concluidos: 332 (85%) · Prog: 7 · A Fazer: 35
 
 --- HORAS ---
-Planejado: 1249h · Gasto: 1290.9h · Falta: 126.5h · Projetado: 1417.4h
+Planejado: 1249h · Gasto: 1302.2h · Falta: 126.5h · Projetado: 1428.7h
 
 --- CAMADAS ---
-PRINCIPAL: 99% · Subs 69/70 · Est 274h · Real 280.3h · Rem 1h
-REDUNDANTE: 94% · Subs 107/114 · Est 432.5h · Real 572.3h · Rem 14.5h
+PRINCIPAL: 99% · Subs 70/71 · Est 274h · Real 294.3h · Rem 1h
+REDUNDANTE: 94% · Subs 107/114 · Est 432.5h · Real 579.6h · Rem 14.5h
 COMPLEMENTARES: CANCELADO · Subs 9/9 · Est 27h · Real 75.5h · Rem 0h
 OBSERVABILIDADE: 74% · Subs 92/124 · Est 499.5h · Real 264.8h · Rem 111h
 
 --- TIME ---
-  [DEV] Gabriel Pigatto: 234.2h/214h (109%) · 43 subs | ⚠ 1 fix(s) sem card Git
-  [DEV] Artur Silva: 326.5h/161.5h (202%) · 50 subs | ⚠ 3 fix(s) sem card Git
+  [DEV] Gabriel Pigatto: 245.6h/214h (115%) · 44 subs | ⚠ 1 fix(s) sem card Git
+  [DEV] Artur Silva: 326.5h/165.5h (197%) · 50 subs | ⚠ 3 fix(s) sem card Git
   [DEV] Carlos H. Almeida: 268.2h/217h (124%) · 34 subs | ⚠ 6 fix(s) sem card Git
   [DEV] Maria E. Muniz: 91.5h/53h (173%) · 21 subs
   [DEV] Fabio Santos: 220.8h/309h (71%) · 54 subs | ⚠ 19 fix(s) sem card Git
@@ -32,5 +32,4 @@ Repos: servico-quadro-aulas, frontend-quadro-aulas, servico-quadro-aulas-fallbac
 Estourados: 17.7% · SubBugs ADO: 26 · Oculto Git: 37 · Dentro: 82.3%
 
 --- SEM TAG ---
-Total sem tag: 1 itens
-  #412552 | Sub Imp | Em Desenvolvimento | Melhoria log | gabrielpigatto frwk.com.br
+Total sem tag: 0 itens
