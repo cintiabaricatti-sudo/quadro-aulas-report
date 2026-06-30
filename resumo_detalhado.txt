@@ -1,21 +1,21 @@
 === REPORT QUADRO DE AULAS - RESILIENCIA SISTEMICA ===
-Gerado em: 30/06/2026, 09:07:47
+Gerado em: 30/06/2026, 19:04:15
 
 --- PROGRESSO ---
-Total: 393 · Concluidos: 334 (85%) · Prog: 6 · A Fazer: 35
+Total: 393 · Concluidos: 335 (85%) · Prog: 6 · A Fazer: 34
 
 --- HORAS ---
-Planejado: 1249h · Gasto: 1310.2h · Falta: 120.5h · Projetado: 1430.7h
+Planejado: 1249h · Gasto: 1310.7h · Falta: 120h · Projetado: 1430.7h
 
 --- CAMADAS ---
 PRINCIPAL: 99% · Subs 70/71 · Est 274h · Real 294.3h · Rem 1h
-REDUNDANTE: 96% · Subs 109/114 · Est 432.5h · Real 587.6h · Rem 8.5h
+REDUNDANTE: 96% · Subs 110/114 · Est 432.5h · Real 588.1h · Rem 8h
 COMPLEMENTARES: CANCELADO · Subs 9/9 · Est 27h · Real 75.5h · Rem 0h
 OBSERVABILIDADE: 74% · Subs 92/124 · Est 499.5h · Real 264.8h · Rem 111h
 
 --- TIME ---
   [DEV] Gabriel Pigatto: 245.6h/214h (115%) · 44 subs | ⚠ 1 fix(s) sem card Git
-  [DEV] Artur Silva: 334.5h/167.5h (200%) · 52 subs | ⚠ 3 fix(s) sem card Git
+  [DEV] Artur Silva: 335h/168h (199%) · 53 subs | ⚠ 3 fix(s) sem card Git
   [DEV] Carlos H. Almeida: 268.2h/217h (124%) · 34 subs | ⚠ 6 fix(s) sem card Git
   [DEV] Maria E. Muniz: 91.5h/53h (173%) · 21 subs
   [DEV] Fabio Santos: 220.8h/309h (71%) · 54 subs | ⚠ 19 fix(s) sem card Git
@@ -25,7 +25,7 @@ OBSERVABILIDADE: 74% · Subs 92/124 · Est 499.5h · Real 264.8h · Rem 111h
 
 --- RETRABALHO OCULTO GIT ---
 Fixes sem [ID] ADO (time, sem merges/infra, sem TL): 35
-Cobertura ADO do time: 47%
+Cobertura ADO do time: 46%
 Repos: servico-quadro-aulas, frontend-quadro-aulas, servico-quadro-aulas-fallback, servico-aulas, servico-planejamento-monitoramento-integracao, frontend-monitor-integracao
 
 --- EFICIENCIA ---
