@@ -3,4 +3,4 @@ Camadas: Principal 99% · Redundante 96% · Complementares cancelada · Observab
 Prazo E1: Projetado 02/07/2026 · E2: Projetado 09/07/2026
 Atencao: 0 stories sem refinamento · 7 Bugs · 130 itens expansao
 Sem tag: 1 itens
-Retrabalho oculto Git (time): 34 fix(s) sem card · cobertura do time 47%
+Retrabalho oculto Git (time): 33 fix(s) sem card · cobertura do time 48%
