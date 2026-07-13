@@ -1,21 +1,21 @@
 === REPORT QUADRO DE AULAS - RESILIENCIA SISTEMICA ===
-Gerado em: 13/07/2026, 08:26:58
+Gerado em: 13/07/2026, 18:36:05
 
 --- PROGRESSO ---
-Total: 394 · Concluidos: 335 (85%) · Prog: 7 · A Fazer: 34
+Total: 394 · Concluidos: 338 (86%) · Prog: 6 · A Fazer: 31
 
 --- HORAS ---
-Planejado: 1249h · Gasto: 1331.9h · Falta: 120h · Projetado: 1451.9h
+Planejado: 1249h · Gasto: 1347.9h · Falta: 119h · Projetado: 1466.9h
 
 --- CAMADAS ---
 PRINCIPAL: 99% · Subs 70/71 · Est 274h · Real 294.3h · Rem 1h
-REDUNDANTE: 96% · Subs 110/114 · Est 432.5h · Real 591.1h · Rem 8h
+REDUNDANTE: 97% · Subs 111/114 · Est 432.5h · Real 592.1h · Rem 7h
 COMPLEMENTARES: CANCELADO · Subs 9/9 · Est 27h · Real 75.5h · Rem 0h
 OBSERVABILIDADE: 74% · Subs 92/124 · Est 499.5h · Real 264.8h · Rem 111h
 
 --- TIME ---
-  [DEV] Gabriel Pigatto: 245.6h/214h (115%) · 44 subs | ⚠ 2 fix(s) sem card Git
-  [DEV] Artur Silva: 356.2h/168h (212%) · 53 subs | ⚠ 3 fix(s) sem card Git
+  [DEV] Gabriel Pigatto: 246.6h/219h (113%) · 45 subs | ⚠ 5 fix(s) sem card Git
+  [DEV] Artur Silva: 371.2h/168h (221%) · 55 subs | ⚠ 3 fix(s) sem card Git
   [DEV] Carlos H. Almeida: 268.2h/217h (124%) · 34 subs | ⚠ 6 fix(s) sem card Git
   [DEV] Maria E. Muniz: 91.5h/53h (173%) · 21 subs
   [DEV] Fabio Santos: 220.8h/309h (71%) · 54 subs | ⚠ 19 fix(s) sem card Git
@@ -24,14 +24,14 @@ OBSERVABILIDADE: 74% · Subs 92/124 · Est 499.5h · Real 264.8h · Rem 111h
   [TL] Ricardo Cardoso: 124.5h/144h (86%) · 89 subs
 
 --- RETRABALHO OCULTO GIT ---
-Fixes sem [ID] ADO (time, sem merges/infra, sem TL): 32
-Cobertura ADO do time: 48%
+Fixes sem [ID] ADO (time, sem merges/infra, sem TL): 35
+Cobertura ADO do time: 50%
 Repos: servico-quadro-aulas, frontend-quadro-aulas, servico-quadro-aulas-fallback, servico-aulas, servico-planejamento-monitoramento-integracao, frontend-monitor-integracao
 
 --- EFICIENCIA ---
-Estourados: 17.9% · SubBugs ADO: 26 · Oculto Git: 32 · Dentro: 82.1%
+Estourados: 17.8% · SubBugs ADO: 26 · Oculto Git: 35 · Dentro: 82.2%
 
 --- SEM TAG ---
 Total sem tag: 2 itens
-  #413004 | Sub Imp | Em Desenvolvimento | Validar equivalencia dos dados | artursilva frwk.com.br
-  #416530 | Sub Imp | A Fazer | Melhoria de performance com databricks | artursilva frwk.com.br
+  #413004 | Sub Imp | Finalizado | Validar equivalencia dos dados | artursilva frwk.com.br
+  #416530 | Sub Imp | Finalizado | Melhoria de performance com databricks | artursilva frwk.com.br
