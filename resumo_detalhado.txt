@@ -1,8 +1,8 @@
 === REPORT QUADRO DE AULAS - RESILIENCIA SISTEMICA ===
-Gerado em: 10/07/2026, 08:04:49
+Gerado em: 13/07/2026, 08:26:58
 
 --- PROGRESSO ---
-Total: 393 · Concluidos: 335 (85%) · Prog: 7 · A Fazer: 33
+Total: 394 · Concluidos: 335 (85%) · Prog: 7 · A Fazer: 34
 
 --- HORAS ---
 Planejado: 1249h · Gasto: 1331.9h · Falta: 120h · Projetado: 1451.9h
@@ -19,18 +19,19 @@ OBSERVABILIDADE: 74% · Subs 92/124 · Est 499.5h · Real 264.8h · Rem 111h
   [DEV] Carlos H. Almeida: 268.2h/217h (124%) · 34 subs | ⚠ 6 fix(s) sem card Git
   [DEV] Maria E. Muniz: 91.5h/53h (173%) · 21 subs
   [DEV] Fabio Santos: 220.8h/309h (71%) · 54 subs | ⚠ 19 fix(s) sem card Git
-  [DEV] Albert V. Foureaux: 6.5h/6.5h (100%) · 1 subs | ⚠ 3 fix(s) sem card Git
+  [DEV] Albert V. Foureaux: 6.5h/6.5h (100%) · 1 subs | ⚠ 2 fix(s) sem card Git
   [QA] James G. Pereira: 30h/33h (91%) · 5 subs
   [TL] Ricardo Cardoso: 124.5h/144h (86%) · 89 subs
 
 --- RETRABALHO OCULTO GIT ---
-Fixes sem [ID] ADO (time, sem merges/infra, sem TL): 33
+Fixes sem [ID] ADO (time, sem merges/infra, sem TL): 32
 Cobertura ADO do time: 48%
 Repos: servico-quadro-aulas, frontend-quadro-aulas, servico-quadro-aulas-fallback, servico-aulas, servico-planejamento-monitoramento-integracao, frontend-monitor-integracao
 
 --- EFICIENCIA ---
-Estourados: 17.9% · SubBugs ADO: 26 · Oculto Git: 33 · Dentro: 82.1%
+Estourados: 17.9% · SubBugs ADO: 26 · Oculto Git: 32 · Dentro: 82.1%
 
 --- SEM TAG ---
-Total sem tag: 1 itens
+Total sem tag: 2 itens
   #413004 | Sub Imp | Em Desenvolvimento | Validar equivalencia dos dados | artursilva frwk.com.br
+  #416530 | Sub Imp | A Fazer | Melhoria de performance com databricks | artursilva frwk.com.br
