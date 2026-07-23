@@ -1,17 +1,17 @@
 === REPORT QUADRO DE AULAS - RESILIENCIA SISTEMICA ===
-Gerado em: 22/07/2026, 09:30:46
+Gerado em: 23/07/2026, 09:31:39
 
 --- PROGRESSO ---
-Total: 377 · Concluidos: 339 (90%) · Prog: 5 · A Fazer: 31
+Total: 344 · Concluidos: 339 (99%) · Prog: 0 · A Fazer: 3
 
 --- HORAS ---
-Planejado: 1249h · Gasto: 1352.4h · Falta: 115h · Projetado: 1467.4h
+Planejado: 1121h · Gasto: 1335.4h · Falta: 4h · Projetado: 1339.4h
 
 --- CAMADAS ---
 PRINCIPAL: 99% · Subs 70/71 · Est 274h · Real 294.3h · Rem 1h
 REDUNDANTE: 98% · Subs 112/114 · Est 432.5h · Real 596.6h · Rem 3h
 COMPLEMENTARES: CANCELADO · Subs 9/9 · Est 27h · Real 75.5h · Rem 0h
-OBSERVABILIDADE: 74% · Subs 92/124 · Est 499.5h · Real 264.8h · Rem 111h
+OBSERVABILIDADE: ENTREGUE · Subs 92/92 · Est 371.5h · Real 247.8h · Rem 0h
 
 --- TIME ---
   [DEV] Gabriel Pigatto: 251.1h/219h (115%) · 46 subs | ⚠ 7 fix(s) sem card Git
@@ -25,11 +25,11 @@ OBSERVABILIDADE: 74% · Subs 92/124 · Est 499.5h · Real 264.8h · Rem 111h
 
 --- RETRABALHO OCULTO GIT ---
 Fixes sem [ID] ADO (time, sem merges/infra, sem TL): 34
-Cobertura ADO do time: 55%
+Cobertura ADO do time: 56%
 Repos: servico-quadro-aulas, frontend-quadro-aulas, servico-quadro-aulas-fallback, servico-aulas, servico-planejamento-monitoramento-integracao, frontend-monitor-integracao
 
 --- EFICIENCIA ---
-Estourados: 18.1% · SubBugs ADO: 26 · Oculto Git: 34 · Dentro: 81.9%
+Estourados: 18.5% · SubBugs ADO: 26 · Oculto Git: 34 · Dentro: 81.5%
 
 --- SEM TAG ---
 Total sem tag: 2 itens
